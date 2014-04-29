@@ -9,4 +9,4 @@ Tecnologias:
 	- Servidor
 
 O que teremos que aprender:
-	- Precisaremos desenvolver nossos conhecimentos em 'Ruby on Rails' e bando de dados.
+	- Precisaremos desenvolver nossos conhecimentos em 'Ruby on Rails' e banco de dados.
