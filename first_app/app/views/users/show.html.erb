@@ -12,7 +12,8 @@
 
 <p>
 	<strong>Posts:</strong>
-	<%= @user.posts.content %>
+	<%= @user.posts.count %><br>
+	<%= @user.posts %>
 </p>
 <%= link_to 'Editar', edit_user_path(@user) %> |
 <%= link_to 'Voltar', users_path %>
