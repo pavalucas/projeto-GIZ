@@ -10,5 +10,9 @@
   <%= @user.email %>
 </p>
 
+<p>
+	<strong>Posts:</strong>
+	<%= @user.posts.content %>
+</p>
 <%= link_to 'Editar', edit_user_path(@user) %> |
 <%= link_to 'Voltar', users_path %>
