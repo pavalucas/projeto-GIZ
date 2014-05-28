@@ -1655,3 +1655,1918 @@ Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 14:56:43 +0000
 
 
 Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 14:56:43 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:13:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (43.1ms)
+Completed 500 Internal Server Error in 125ms
+
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0xa9771d8>:0xa975dec>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___647125059_88947520'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (45.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:15:04 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (32.6ms)
+Warning. Error encountered while saving cache 39c7486d7965fa336b5960efc9f1e2b2ed0fd1ab/custom.css.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache c1ee84a2fbe29fb373b48662839cc52312e460bd/bootstrap.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/bootstrap.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_variables.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_mixins.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_reset.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_scaffolding.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_grid.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_layouts.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_type.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_code.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_forms.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_tables.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_sprites.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_dropdowns.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_wells.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_component-animations.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_close.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_buttons.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_button-groups.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_alerts.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_navs.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_navbar.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_breadcrumbs.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_pagination.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_pager.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_modals.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_tooltip.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_popovers.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_thumbnails.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_media.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_labels-badges.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_progress-bars.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_accordion.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_carousel.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_hero-unit.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 23f6acd7bad41baa5daf3c27379fa649d185a6c6/_utilities.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 39c7486d7965fa336b5960efc9f1e2b2ed0fd1ab/scaffolds.css.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Warning. Error encountered while saving cache 39c7486d7965fa336b5960efc9f1e2b2ed0fd1ab/users.css.scssc: can't dump anonymous class #<Class:0xb28b5f8>
+
+Completed 200 OK in 9417ms (Views: 9412.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:15:15 +0000
+
+
+Started GET "/images/rails.png" for 10.0.2.2 at 2014-05-28 15:15:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (38.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (280.4ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:20:55 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 69ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:20:56 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:24:19 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:24:19 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:24:19 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:24:20 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:33 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:33 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:33 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:34 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:36 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:37 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:41 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:41 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:41 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:25:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:44 +0000
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:25:50 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:32:40 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:32:41 +0000
+
+
+Started GET "/static_pages/new_user_path" for 10.0.2.2 at 2014-05-28 15:32:44 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/new_user_path"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (90.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (220.2ms)
+
+
+Started GET "/static_pages/new_user_path" for 10.0.2.2 at 2014-05-28 15:32:45 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/new_user_path"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (146.4ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:33:06 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:33:06 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:33:06 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:33:06 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:33:07 +0000
+
+
+Started GET "/static_pages/static_pages/help" for 10.0.2.2 at 2014-05-28 15:33:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/static_pages/help"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (130.9ms)
+
+
+Started GET "/static_pages/static_pages/help" for 10.0.2.2 at 2014-05-28 15:33:09 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/static_pages/help"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.5ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:34:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:34:29 +0000
+
+
+Started GET "/static_pages/users" for 10.0.2.2 at 2014-05-28 15:34:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/users"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (137.1ms)
+
+
+Started GET "/static_pages/users" for 10.0.2.2 at 2014-05-28 15:34:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/users"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (131.3ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:35:11 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (84.0ms)
+Completed 500 Internal Server Error in 112ms
+
+SyntaxError (/home/projeto-SACI/first_app/app/views/static_pages/home.html.erb:9: syntax error, unexpected '<', expecting ')'
+</div>
+ ^
+/home/projeto-SACI/first_app/app/views/static_pages/home.html.erb:9: unterminated regexp meets end of file):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (140.7ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:03 +0000
+
+
+Started GET "/users/new" for 10.0.2.2 at 2014-05-28 15:36:05 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (50.1ms)
+  Rendered users/new.html.erb within layouts/application (59.9ms)
+Completed 200 OK in 135ms (Views: 96.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2014-05-28 15:36:05 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (6.5ms)
+  Rendered users/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:06 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:36:13 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:37:37 +0000
+
+
+Started GET "/help" for 10.0.2.2 at 2014-05-28 15:37:40 +0000
+
+ActionController::RoutingError (No route matches [GET] "/help"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (128.9ms)
+
+
+Started GET "/help" for 10.0.2.2 at 2014-05-28 15:37:40 +0000
+
+ActionController::RoutingError (No route matches [GET] "/help"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (135.2ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:38:26 +0000
+
+
+Started GET "/static_pages/static_pages/help" for 10.0.2.2 at 2014-05-28 15:38:29 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/static_pages/help"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.8ms)
+
+
+Started GET "/static_pages/static_pages/help" for 10.0.2.2 at 2014-05-28 15:38:29 +0000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/static_pages/help"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p451@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (135.9ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:31 +0000
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:33 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:34 +0000
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:38 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:38 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:38 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:38 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:38 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:38 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:39 +0000
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:42 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:39:42 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:42 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:43 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:39:49 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:30 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:30 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:30 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:30 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:30 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:31 +0000
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:40:32 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:33 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:34 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:34 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:35 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:36 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:37 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:37 +0000
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2014-05-28 15:40:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-05-28 15:40:38 +0000

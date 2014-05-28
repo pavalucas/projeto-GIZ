@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= full_title(yield(:title)) %></title>
+    <title>SACI</title>
     <%= stylesheet_link_tag "application", media: "all",
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -17,8 +17,8 @@
           <%= link_to "first app", '#', id: "logo" %>
           <nav>
             <ul class="nav pull-right">
-              <li><%= link_to "Home",    '#' %></li>
-              <li><%= link_to "Help",    '#' %></li>
+              <li><%= link_to "Home",    static_pages_home_path %></li>
+              <li><%= link_to "Help",    static_pages_help_path %></li>
               <li><%= link_to "Sign in", '#' %></li>
             </ul>
           </nav>
