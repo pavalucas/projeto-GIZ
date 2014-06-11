@@ -1,3 +1,14 @@
+- Semana 04/06 - 11/06
+	- O que era para eu ter feito na semana anterior?
+	R: Layout da página principal e link para a página de criação do usuário.
+
+	- O que eu fiz?
+	R: Instalação do ubuntu e programas necessários no laptop
+
+	- O que vou fazer?
+	R: Validação do usuário e senha.
+
+
 - Semana 28/05 - 04/06:
 	- O que era para eu ter feito na semana anterior?
 	R: --
