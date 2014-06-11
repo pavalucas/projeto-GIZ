@@ -10,9 +10,5 @@
   <%= @user.email %>
 </p>
 
-<p>
-	<strong>Númeto de Posts:</strong>
-	<%= @user.posts.count %><br>
-</p>
 <%= link_to 'Editar', edit_user_path(@user) %> |
 <%= link_to 'Voltar', users_path %>
