@@ -14,11 +14,11 @@
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <%= link_to "first app", '#', id: "logo" %>
+          <%= link_to "first app", root_path, id: "logo" %>
           <nav>
             <ul class="nav pull-right">
-              <li><%= link_to "Home",    static_pages_home_path %></li>
-              <li><%= link_to "Help",    static_pages_help_path %></li>
+              <li><%= link_to "Home", root_path %></li>
+              <li><%= link_to "Help", help_path %></li>
               <li><%= link_to "Sign in", '#' %></li>
             </ul>
           </nav>
@@ -26,6 +26,9 @@
       </div>
     </header>
     <div class="container">
+      <% flash.each do |key, value| %>
+            <div class="alert alert-<%= key %>"><%= value %></div>
+          <% end %>
       <%= yield %>
     </div>
   </body>
