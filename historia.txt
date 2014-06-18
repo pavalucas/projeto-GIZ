@@ -1,3 +1,13 @@
+- Semana 11/06 - 18/06
+	- O que era para eu ter feito na semana anterior?
+	R: Validação do usuário e senha.
+
+	- O que eu fiz?
+	R: Criação do formulário de inscrição, validação do usuário e senha e criação da pagina inicial do usuário.
+
+	- O que vou fazer?
+	R: Capacidade do usuário dar sign in e sign out da aplicação.
+
 - Semana 04/06 - 11/06
 	- O que era para eu ter feito na semana anterior?
 	R: Validação do usuário e senha, porém tivemos problemas com o Windows, este não permitia a sincronização de pastas da máquina virtual.
