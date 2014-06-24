@@ -1,3 +1,13 @@
+- Semana 18/06 - 25/06
+	- O que era para eu ter feito na semana anterior?
+	R: Capacidade do usuário dar sign in e sign out da aplicação.
+
+	- O que eu fiz?
+	R: Agora o usuário pode entrar ("sign in") com a sua conta assim com ele pode sair ("sign out").
+
+	- O que vou fazer?
+	R: Aprimorar o sistema de posts, usuários farão posts e poderão ver posts dos outros.
+
 - Semana 11/06 - 18/06
 	- O que era para eu ter feito na semana anterior?
 	R: Validação do usuário e senha.
