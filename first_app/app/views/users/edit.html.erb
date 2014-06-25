@@ -1,6 +1,29 @@
-<h1>Editar Usuario</h1>
 
-<%= render 'form' %>
 
-<%= link_to 'Mostrar', @user %> |
-<%= link_to 'Voltar', users_path %>
+<% provide(:title, "Edição de Usuário") %>
+<h1>Edite seu Perfil</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label :name, "Nome" %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password, "Senha" %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirme sua senha" %>
+      <%= f.password_field :password_confirmation %>
+
+      <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+    <%= gravatar_for @user %>
+    <a href="http://gravatar.com/emails">change</a>
+  </div>
+</div>
