@@ -1,5 +1,5 @@
-Xbox One ganha novos games na E3 2014
+Site da FIFA mostra os assuntos mais quentes da Copa do Mundo 2014
 
 ============
 
-http://g1.globo.com/tecnologia/games/e3/2014/noticia/2014/06/xbox-one-ganha-novos-games-em-conferencia-da-microsoft-na-e3-2014.html
+http://www.tecmundo.com.br/futebol/58496-site-fifa-mostra-assuntos-quentes-da-copa-mundo-2014.htm
