@@ -1,3 +1,13 @@
+- Semana 25/06 - 02/06
+	- O que era para eu ter feito na semana anterior?
+	R: Aprimorar o sistema de posts, usuários farão posts e poderão ver posts dos outros.
+
+	- O que eu fiz?
+	R: Adicionamos a funcionalidade de edição do perfil do usuário e restrições para usuários que não poderem acesar qualquer página através do URL. Algumas traduções também foram feitas.
+
+	- O que eu vou fazer?
+	R: Aprimorar o sistema de posts, usuários farão posts e poderão ver posts dos outros.
+
 - Semana 18/06 - 25/06
 	- O que era para eu ter feito na semana anterior?
 	R: Capacidade do usuário dar sign in e sign out da aplicação.
