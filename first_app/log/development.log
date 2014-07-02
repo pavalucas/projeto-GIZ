@@ -17403,3 +17403,2487 @@ Processing by UsersController#edit as HTML
   Rendered shared/_error_messages.html.erb (0.1ms)
   Rendered users/edit.html.erb within layouts/application (3.7ms)
 Completed 200 OK in 24ms (Views: 20.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1
+Completed 200 OK in 361ms (Views: 358.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-01 21:11:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-01 21:11:42 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 10:53:47 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Warning. Error encountered while saving cache 77433342d6369681eb85dc1116c8187c4ffbef8b/custom.css.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 58fdad9fc00ef2b8e75ecea78143c6f69a019616/bootstrap.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/bootstrap.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_variables.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_mixins.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_reset.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_scaffolding.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_grid.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_layouts.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_type.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_code.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_forms.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_tables.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_sprites.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_dropdowns.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_wells.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_component-animations.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_close.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_buttons.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_button-groups.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_alerts.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_navs.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_navbar.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_pagination.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_pager.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_modals.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_tooltip.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_popovers.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_thumbnails.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_media.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_labels-badges.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_progress-bars.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_accordion.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_carousel.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_hero-unit.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+Warning. Error encountered while saving cache 7cced9f6f8cd599af0123373d87fd0e65c230fcc/_utilities.scssc: can't dump anonymous class #<Class:0x00000002b91278>
+
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1
+Completed 200 OK in 3401ms (Views: 3399.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 10:53:52 -0300
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:53:59 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (25.7ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)):
+    4: <ul class="users">
+    5:   <% @users.each do |user| %>
+    6:     <li>
+    7:       <%= gravatar_for user, size: 52 %>
+    8:       <%= link_to user.name, user %>
+    9:     </li>
+   10:   <% end %>
+  app/helpers/users_helper.rb:3:in `gravatar_for'
+  app/views/users/index.html.erb:7:in `block in _app_views_users_index_html_erb___36480028350418897_40862300'
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb___36480028350418897_40862300'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:53:59 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)):
+    4: <ul class="users">
+    5:   <% @users.each do |user| %>
+    6:     <li>
+    7:       <%= gravatar_for user, size: 52 %>
+    8:       <%= link_to user.name, user %>
+    9:     </li>
+   10:   <% end %>
+  app/helpers/users_helper.rb:3:in `gravatar_for'
+  app/views/users/index.html.erb:7:in `block in _app_views_users_index_html_erb___36480028350418897_40862300'
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb___36480028350418897_40862300'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:53:59 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)):
+    4: <ul class="users">
+    5:   <% @users.each do |user| %>
+    6:     <li>
+    7:       <%= gravatar_for user, size: 52 %>
+    8:       <%= link_to user.name, user %>
+    9:     </li>
+   10:   <% end %>
+  app/helpers/users_helper.rb:3:in `gravatar_for'
+  app/views/users/index.html.erb:7:in `block in _app_views_users_index_html_erb___36480028350418897_41671980'
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb___36480028350418897_41671980'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:43 -0300
+
+
+Started GET "/users/5" for 127.0.0.1 at 2014-07-02 10:54:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1[0m
+Completed 200 OK in 80ms (Views: 78.0ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-02 10:54:51 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"orzLyTEtNasW0wSN1KQptWj3MAESZSaDetilK93WkQQ="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '948e213c51643538adf7449eda12d6edcf071d81' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 5  [["remember_token", "fe2de4a11e7a404c4a6315ea5a9a9ebdaa7e2902"], ["updated_at", "2014-07-02 13:54:51.940323"]]
+  [1m[36m (143.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 173ms (ActiveRecord: 144.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 10:54:52 -0300
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:55:10 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-02 10:55:10 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (227.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Completed 200 OK in 281ms (Views: 279.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 10:55:11 -0300
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-07-02 10:55:24 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"orzLyTEtNasW0wSN1KQptWj3MAESZSaDetilK93WkQQ=", "session"=>{"email"=>"miguel.corti42@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'miguel.corti42@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 5[0m  [["remember_token", "51fa35dd559092623d76b99ff9642a3430186582"], ["updated_at", "2014-07-02 13:55:24.298124"]]
+  [1m[35m (187.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/users
+Completed 302 Found in 288ms (ActiveRecord: 188.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:55:24 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)):
+    4: <ul class="users">
+    5:   <% @users.each do |user| %>
+    6:     <li>
+    7:       <%= gravatar_for user, size: 52 %>
+    8:       <%= link_to user.name, user %>
+    9:     </li>
+   10:   <% end %>
+  app/helpers/users_helper.rb:3:in `gravatar_for'
+  app/views/users/index.html.erb:7:in `block in _app_views_users_index_html_erb___36480028350418897_41671980'
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb___36480028350418897_41671980'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 70ms (Views: 66.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 10:56:43 -0300
+
+
+Started GET "/users/5" for 127.0.0.1 at 2014-07-02 10:56:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 10:57:03 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2014-07-02 10:57:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2014-07-02 10:57:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 11:21:18 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 287ms (Views: 285.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/5/edit" for 127.0.0.1 at 2014-07-02 11:21:23 -0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered shared/_error_messages.html.erb (17.5ms)
+  Rendered users/edit.html.erb within layouts/application (103.4ms)
+Completed 200 OK in 121ms (Views: 117.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2014-07-02 11:21:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:21:29 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `total_pages' for #<User::ActiveRecord_Relation:0x00000003a75938>):
+    1: <% provide(:title, 'All users') %>
+    2: <h1>Todos os Perfis</h1>
+    3: 
+    4: <%= will_paginate %>
+    5: 
+    6: <ul class="users">
+    7:   <% @users.each do |user| %>
+  app/views/users/index.html.erb:4:in `_app_views_users_index_html_erb__3692381070253999858_30717860'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:21:29 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `total_pages' for #<User::ActiveRecord_Relation:0x000000034b5a48>):
+    1: <% provide(:title, 'All users') %>
+    2: <h1>Todos os Perfis</h1>
+    3: 
+    4: <%= will_paginate %>
+    5: 
+    6: <ul class="users">
+    7:   <% @users.each do |user| %>
+  app/views/users/index.html.erb:4:in `_app_views_users_index_html_erb__3692381070253999858_27671480'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.6ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+
+
+Started GET "/users/5/edit" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 80ms (Views: 76.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `total_pages' for #<User::ActiveRecord_Relation:0x00000003129398>):
+    1: <% provide(:title, 'All users') %>
+    2: <h1>Todos os Perfis</h1>
+    3: 
+    4: <%= will_paginate %>
+    5: 
+    6: <ul class="users">
+    7:   <% @users.each do |user| %>
+  app/views/users/index.html.erb:4:in `_app_views_users_index_html_erb__3692381070253999858_30717860'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:21:32 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `total_pages' for #<User::ActiveRecord_Relation:0x000000039ce610>):
+    1: <% provide(:title, 'All users') %>
+    2: <h1>Todos os Perfis</h1>
+    3: 
+    4: <%= will_paginate %>
+    5: 
+    6: <ul class="users">
+    7:   <% @users.each do |user| %>
+  app/views/users/index.html.erb:4:in `_app_views_users_index_html_erb__3692381070253999858_27671480'
+
+
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/miguel/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:34 -0300
+
+
+Started GET "/help" for 127.0.0.1 at 2014-07-02 11:21:37 -0300
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 11:21:39 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-02 11:21:41 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"orzLyTEtNasW0wSN1KQptWj3MAESZSaDetilK93WkQQ="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = '51fa35dd559092623d76b99ff9642a3430186582' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 5  [["remember_token", "1af12e89814b0bb9fc704e7e8aade62da807d4e9"], ["updated_at", "2014-07-02 14:21:41.648212"]]
+  [1m[36m (180.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 190ms (ActiveRecord: 181.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 11:21:41 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:41 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:21:42 -0300
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-02 11:21:43 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-07-02 11:21:46 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/new.html.erb within layouts/application (6.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 11:22:18 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:24:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:00 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:00 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:00 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:00 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:00 -0300
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"orzLyTEtNasW0wSN1KQptWj3MAESZSaDetilK93WkQQ=", "session"=>{"email"=>"miguel.corti42@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'miguel.corti42@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 5  [["remember_token", "b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb"], ["updated_at", "2014-07-02 14:25:09.471788"]]
+  [1m[36m (248.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 345ms (ActiveRecord: 249.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0
+  Rendered users/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:25:09 -0300
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:25:12 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0[0m
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 78ms (Views: 75.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:25:13 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0
+  Rendered users/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:25:14 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+  [1m[36m (160.8ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (143.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255), "remember_token" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (164.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (134.4ms)[0m  CREATE  INDEX "index_users_on_remember_token" ON "users" ("remember_token")
+  [1m[36m (130.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (154.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (143.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140618135926')
+  [1m[36m (144.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140611155511')[0m
+  [1m[35m (154.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140507154901')
+  [1m[36m (165.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140507152253')[0m
+  [1m[35m (165.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140615014456')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:28.724351"], ["email", "exemplo@saci.com"], ["name", "Exemplo Usuário"], ["password_digest", "$2a$10$/1nzafQuSMclAjd7qaOrg..iZ0SKHPVfd8OZsBWNT5CMa2mDbQ82."], ["remember_token", "720b401cf3d7f603a94a37b2e29da2cc61fd6ace"], ["updated_at", "2014-07-02 14:36:28.724351"]]
+  [1m[35m (160.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-1@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:29.163373"], ["email", "exemplo-1@saci.com"], ["name", "Mateo Larkin Jr."], ["password_digest", "$2a$10$11yR4KUM5h90aQqUrPO56OhjGAkWgWdcm3h9GGOXSy2yBHPq/bcme"], ["remember_token", "29f6cc5538c117fa878636b2e202dd1dc1355d36"], ["updated_at", "2014-07-02 14:36:29.163373"]]
+  [1m[35m (139.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-2@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:29.396039"], ["email", "exemplo-2@saci.com"], ["name", "Baron Dickens"], ["password_digest", "$2a$10$cmP/gHFtolVYJ4Lf1o7Mse/iSQJj2CUn5SMehzv2tp4K2UyRuQ4Oi"], ["remember_token", "9da34f101e079b92149ffd948aad95a484bc06f8"], ["updated_at", "2014-07-02 14:36:29.396039"]]
+  [1m[35m (176.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-3@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:29.662616"], ["email", "exemplo-3@saci.com"], ["name", "Kellie Windler"], ["password_digest", "$2a$10$idt9oPcwBBiZ5eE7ryT4B.Td1tJUn8ywze7QmcjtlEuMZurjgzQ7C"], ["remember_token", "fdd39d4a011baf9ef3c2a03e50b67b2667455ff5"], ["updated_at", "2014-07-02 14:36:29.662616"]]
+  [1m[35m (147.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-4@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:29.903607"], ["email", "exemplo-4@saci.com"], ["name", "Jerrold Murazik"], ["password_digest", "$2a$10$Zk53qwYlOCCSoE0Bi1mDF.ahX5hlNAznvXiQXXoOhlH0KjeZT0DNG"], ["remember_token", "b5db6e77bc2c43411dbc849510d4686b3cba2c8c"], ["updated_at", "2014-07-02 14:36:29.903607"]]
+  [1m[35m (164.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-5@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:30.157523"], ["email", "exemplo-5@saci.com"], ["name", "Anika Davis Jr."], ["password_digest", "$2a$10$MXH4Nt.C.A6o/MSThRmob.R3FKisA4EOkDRyGvXucqDdQK6JNT4cO"], ["remember_token", "16ce8e0b961a649ee4cec62401681cd9537dcca9"], ["updated_at", "2014-07-02 14:36:30.157523"]]
+  [1m[35m (188.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-6@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:30.434649"], ["email", "exemplo-6@saci.com"], ["name", "Armani Nolan"], ["password_digest", "$2a$10$OewFlz78EPWf3ZrR6rYZ0uZn/Tj.E3mF6YBUU7vXS0.PXb6HttZTi"], ["remember_token", "2c5b1e5f4b10a6796f246ae5006b6fb43cebe32b"], ["updated_at", "2014-07-02 14:36:30.434649"]]
+  [1m[35m (179.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-7@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:30.707443"], ["email", "exemplo-7@saci.com"], ["name", "Thelma Schulist MD"], ["password_digest", "$2a$10$0wcl883MxLtKP1IgAF8s8O7inMR3e32thBRd6vvzP3y3m3fyrz3.m"], ["remember_token", "dd348eb8532e6df6ebf03c9af8defb00a7805f5d"], ["updated_at", "2014-07-02 14:36:30.707443"]]
+  [1m[35m (174.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-8@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:30.967738"], ["email", "exemplo-8@saci.com"], ["name", "Dora Keeling"], ["password_digest", "$2a$10$ELZwv/KaQeleDWTKN7rNH.H8rr/tau2wY28meFHjjHaGE80I35hUS"], ["remember_token", "4a770420729ed2e29348a1321f791fa2e3a955ac"], ["updated_at", "2014-07-02 14:36:30.967738"]]
+  [1m[35m (182.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-9@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:31.236953"], ["email", "exemplo-9@saci.com"], ["name", "Mr. Krista Botsford"], ["password_digest", "$2a$10$EJpA3aXpjQY7lbsvmx1PiOKswPij8OsuiKrdlX6BJ9lfrdPnmFnp2"], ["remember_token", "e41eb5fdfa80e3aedc4f52796e359f528425ec57"], ["updated_at", "2014-07-02 14:36:31.236953"]]
+  [1m[35m (171.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-10@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:31.498702"], ["email", "exemplo-10@saci.com"], ["name", "Mariah Abbott"], ["password_digest", "$2a$10$ppeqi9q59OdklL5vhZ0MKu1ybEqjQZz6J6iJ/vBfwYOIq3Fn/avqq"], ["remember_token", "0994ac56c664cc8d4bd4a071322a39108fbaad13"], ["updated_at", "2014-07-02 14:36:31.498702"]]
+  [1m[35m (177.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-11@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:31.764915"], ["email", "exemplo-11@saci.com"], ["name", "Guillermo Littel"], ["password_digest", "$2a$10$FV8GfpVRgWNTiesvMrSa4eA9bJHvNVVWlugloJqlAFJgemahDbSPC"], ["remember_token", "f0be1c81023153357302b5dcd70a1ae50a824f25"], ["updated_at", "2014-07-02 14:36:31.764915"]]
+  [1m[35m (158.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-12@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:32.015962"], ["email", "exemplo-12@saci.com"], ["name", "Tiara Koelpin DVM"], ["password_digest", "$2a$10$v0JiS1XsazyG5Pt6iA7shuwiiG7nnEklkyNA5.QogW0dF9aOytocO"], ["remember_token", "c9f960355cdf33047c981b2067bbccb011e0ec12"], ["updated_at", "2014-07-02 14:36:32.015962"]]
+  [1m[35m (155.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-13@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:32.258864"], ["email", "exemplo-13@saci.com"], ["name", "Hubert Rippin"], ["password_digest", "$2a$10$2W56PT5ZTZNzjrQcMcyMQud6QvQL7Ea5PqhxXodPDHzS56DbxAIJW"], ["remember_token", "42dda559b5f918a179f3c3e33407001013469997"], ["updated_at", "2014-07-02 14:36:32.258864"]]
+  [1m[35m (139.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-14@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:32.485544"], ["email", "exemplo-14@saci.com"], ["name", "Alanis Balistreri DDS"], ["password_digest", "$2a$10$OxhuO4LdTFyumNVRnH8Y5u76vEaHxK/7oIXM4IfIb7pKD/sYOBMX2"], ["remember_token", "d21f4cb232f57f838923a253c8fee13e21c4afb0"], ["updated_at", "2014-07-02 14:36:32.485544"]]
+  [1m[35m (151.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-15@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:32.724487"], ["email", "exemplo-15@saci.com"], ["name", "Rupert Stiedemann"], ["password_digest", "$2a$10$Of.0Y2c6AYXYl8otcx5OQ.mAqPhTmijkdaxfkhvny425SrPINi5/6"], ["remember_token", "d106460a8937fbbe0601ce08fca52df461d479a0"], ["updated_at", "2014-07-02 14:36:32.724487"]]
+  [1m[35m (139.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-16@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:32.952891"], ["email", "exemplo-16@saci.com"], ["name", "Gerda Blick"], ["password_digest", "$2a$10$wQCslq01HROKd5eH83ETXuZ.iK/X3scE0TE4EfU5OqoCshZNaD43O"], ["remember_token", "952304c7f1f2d3bf27926b31974a47fa75741af4"], ["updated_at", "2014-07-02 14:36:32.952891"]]
+  [1m[35m (148.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-17@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:33.190198"], ["email", "exemplo-17@saci.com"], ["name", "Jaylin Harris"], ["password_digest", "$2a$10$rRPad3YMaZHrt7y6ksNX7OSh.o8ySMlNn0k96rJTKSYnkWcyuhQ7i"], ["remember_token", "6518f2c9c854980136831d2570281ab7081e66ab"], ["updated_at", "2014-07-02 14:36:33.190198"]]
+  [1m[35m (169.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-18@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:33.454569"], ["email", "exemplo-18@saci.com"], ["name", "Dr. Kenyatta Marvin"], ["password_digest", "$2a$10$CA8OWtZ9vvPO38W4xR7p5ObzRkpTVEVznahuVb.bISdQGd8gmnTnO"], ["remember_token", "5a0299a29f43f0bec6cb7dca89fc36566f656383"], ["updated_at", "2014-07-02 14:36:33.454569"]]
+  [1m[35m (162.3ms)[0m  commit transaction
+  [1m[36m (55.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-19@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:33.763595"], ["email", "exemplo-19@saci.com"], ["name", "Miss Corine Reilly"], ["password_digest", "$2a$10$hzOHbcuYk9vprPc6F8jdTOPtH.p3v2rwSxtNWdP5HxWUsDOM3g6Ba"], ["remember_token", "60f79fbfbc2d07ba36ee940ad66ff71497a14d7d"], ["updated_at", "2014-07-02 14:36:33.763595"]]
+  [1m[35m (162.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-20@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:34.020012"], ["email", "exemplo-20@saci.com"], ["name", "Dr. Aubrey Bruen"], ["password_digest", "$2a$10$Vm2S/6TatosUNNc182kAgOGMGd554SQ8rOdocYe7zjiPuNtAUjcYO"], ["remember_token", "bdffe307e6dd37b782ba9e5dc12c6acb84c68099"], ["updated_at", "2014-07-02 14:36:34.020012"]]
+  [1m[35m (163.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-21@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:34.273576"], ["email", "exemplo-21@saci.com"], ["name", "Iliana Sauer"], ["password_digest", "$2a$10$VijXrBtavM0/rVShZyltD.2tpzUavHmZCwiCPJDO0jy8P5t/g.o8G"], ["remember_token", "3628a14709ec07378dca7d0d95f13a349a07e7a1"], ["updated_at", "2014-07-02 14:36:34.273576"]]
+  [1m[35m (147.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-22@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:34.512708"], ["email", "exemplo-22@saci.com"], ["name", "Lauretta Schuster"], ["password_digest", "$2a$10$Qdn2FL21zdWXSuCpNguldO/aA8lybsTTB6RXVpnt7ihqMiBdsTKDC"], ["remember_token", "6da7b93301146ab84a13329022ce10e7dd27d5db"], ["updated_at", "2014-07-02 14:36:34.512708"]]
+  [1m[35m (145.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-23@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:34.751745"], ["email", "exemplo-23@saci.com"], ["name", "Vada Zulauf"], ["password_digest", "$2a$10$UjwXKUxt1DtVHNqsneMFeehAeg31QspKhlB4NpUYwMD95oeYGf8aW"], ["remember_token", "e7e495b424d26fcbb2ae8db3a15c2edd258b46fa"], ["updated_at", "2014-07-02 14:36:34.751745"]]
+  [1m[35m (143.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-24@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:34.989467"], ["email", "exemplo-24@saci.com"], ["name", "Kasandra Hermann Jr."], ["password_digest", "$2a$10$QmRFByjvs/RIPbz139P/C.yEbdtTb5ozC4YOe85kv8ZOcyFA1JZX6"], ["remember_token", "3cc9cb3519cf41509b76c5dc88f34ab3f9611400"], ["updated_at", "2014-07-02 14:36:34.989467"]]
+  [1m[35m (143.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-25@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:35.220805"], ["email", "exemplo-25@saci.com"], ["name", "Vivien Von"], ["password_digest", "$2a$10$rkdP36BIc36PQnXfXtTB7u8rST2.NtWXyv22ux0SVsLLfdZyE9fY6"], ["remember_token", "794b5bb9e3eadd74ccfcc073bf3f52dfa7c0797a"], ["updated_at", "2014-07-02 14:36:35.220805"]]
+  [1m[35m (171.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-26@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:35.478637"], ["email", "exemplo-26@saci.com"], ["name", "Dewayne McClure"], ["password_digest", "$2a$10$AdyPGtwaaMpbMuPewsVWZeAa8B7AW4.JHwLOyfEFSZPFUvWWXtoS2"], ["remember_token", "f75a31d437f4a759e260e544250681cf9e239744"], ["updated_at", "2014-07-02 14:36:35.478637"]]
+  [1m[35m (171.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-27@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:35.736713"], ["email", "exemplo-27@saci.com"], ["name", "Rylan Lesch Sr."], ["password_digest", "$2a$10$PtUV0dqSdKqpa3iYy4Rj5uQYoVNyQyH8UUmtGlQVOqHGd4HiKqT.i"], ["remember_token", "ae2094404ff663bae7ab9ff5da206ce9057e33f3"], ["updated_at", "2014-07-02 14:36:35.736713"]]
+  [1m[35m (171.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-28@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:35.998994"], ["email", "exemplo-28@saci.com"], ["name", "Garland Gorczany"], ["password_digest", "$2a$10$C4iCrZZDFmybb8XH4hLEXO/u3v3QT0cgojI.AhxBfjSJHAjX0.0Sa"], ["remember_token", "0c6de3fffeda91b3551b817906842cf182c36822"], ["updated_at", "2014-07-02 14:36:35.998994"]]
+  [1m[35m (177.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-29@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:36.264717"], ["email", "exemplo-29@saci.com"], ["name", "Miss Dereck Kuhlman"], ["password_digest", "$2a$10$okZWKhKXScAAqlghun/1KuGRWawxNscDu9sKqMXN.8McHanB0R1sm"], ["remember_token", "6f6d20997b5e798d95aebf049ee00fd94e9b676c"], ["updated_at", "2014-07-02 14:36:36.264717"]]
+  [1m[35m (179.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-30@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:36.533232"], ["email", "exemplo-30@saci.com"], ["name", "Lula Hartmann II"], ["password_digest", "$2a$10$HVOHb5dFuoDQ9IrJsHupQOif0aQsugmZngNHRJAwaD9aP8ZqyWCpq"], ["remember_token", "1374fe47e1e366365083be67b669bb317126ce8f"], ["updated_at", "2014-07-02 14:36:36.533232"]]
+  [1m[35m (179.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-31@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:36.802226"], ["email", "exemplo-31@saci.com"], ["name", "Declan Moore"], ["password_digest", "$2a$10$mLpPceilKap7GFwIWg6Y2.M5NEedtgMr7rTSl2Pj5FjeYNMgfCDi2"], ["remember_token", "80f3cc835a790a4b33fff978e8c09471acdbf395"], ["updated_at", "2014-07-02 14:36:36.802226"]]
+  [1m[35m (147.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-32@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:37.043476"], ["email", "exemplo-32@saci.com"], ["name", "Mr. Gilbert Toy"], ["password_digest", "$2a$10$5nddPuMzz/btKbZvRWeKneJ6.RXXgJV0Yd9357BmnuLjg.K9EkxJm"], ["remember_token", "d33cfc507b44c00434bbfd47b88835c16b186e87"], ["updated_at", "2014-07-02 14:36:37.043476"]]
+  [1m[35m (153.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-33@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:37.285922"], ["email", "exemplo-33@saci.com"], ["name", "Carolyne Gorczany IV"], ["password_digest", "$2a$10$CVwdfaKIvOesQer.JrC98OvB52X83IX3OwXuCAwtYxjG000pPuXAa"], ["remember_token", "b617d58f31c65769c33f30d540c755af4e2e7795"], ["updated_at", "2014-07-02 14:36:37.285922"]]
+  [1m[35m (158.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-34@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:37.534145"], ["email", "exemplo-34@saci.com"], ["name", "Dr. Annette Koch"], ["password_digest", "$2a$10$VOLrq06FB6Ts9sR5NhyZkuqOkdbqe88HGR9j7rLFeczvPUcT6kzTq"], ["remember_token", "9b6ac810e0cc89281a05d7b386309d7742ab0ede"], ["updated_at", "2014-07-02 14:36:37.534145"]]
+  [1m[35m (157.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-35@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:37.785075"], ["email", "exemplo-35@saci.com"], ["name", "Blanca Towne"], ["password_digest", "$2a$10$kgq68HSbzFot55z/KOwlMuBw1eeK82bLMbK8H3BSrhtwTepOeNTG6"], ["remember_token", "64fb87e8d4692c79fe92ed3caa7ffa209253c46e"], ["updated_at", "2014-07-02 14:36:37.785075"]]
+  [1m[35m (154.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-36@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:38.026734"], ["email", "exemplo-36@saci.com"], ["name", "Rachael Fisher"], ["password_digest", "$2a$10$SbNOj6fljCon69gCpRRwseeoXoLxAO4FmekWdG9k3tbY3bzBmavEa"], ["remember_token", "5d13a4e477e36435e606a6ce258a3b044f694e47"], ["updated_at", "2014-07-02 14:36:38.026734"]]
+  [1m[35m (151.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-37@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:38.268772"], ["email", "exemplo-37@saci.com"], ["name", "Sydnie Considine"], ["password_digest", "$2a$10$Yvf9e6ZW5mcl3aE69I13GOL90ebXY8aIBTcEPA4MRMmZelghYUrme"], ["remember_token", "10ec99e7a846d0fed61e62024318a2fd33fe64ac"], ["updated_at", "2014-07-02 14:36:38.268772"]]
+  [1m[35m (177.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-38@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:38.533549"], ["email", "exemplo-38@saci.com"], ["name", "Ms. Neal Torp"], ["password_digest", "$2a$10$lqq7uDcYMBEnYqi9MetZOusNJPtU3Z3sK3UOdKz4W27VVFfDCbc7m"], ["remember_token", "6ff54dc0fd0751c1d3af93ba9c85e7b9db753c4c"], ["updated_at", "2014-07-02 14:36:38.533549"]]
+  [1m[35m (170.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-39@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:38.790455"], ["email", "exemplo-39@saci.com"], ["name", "Mack Lowe IV"], ["password_digest", "$2a$10$Ueo8b7hvngng9auc6nTYSuHiIMc4YLDWbjIYCFCe2UQETAVnUy4Iu"], ["remember_token", "f323673e3ddd681651b2d624514ccec8ad00a734"], ["updated_at", "2014-07-02 14:36:38.790455"]]
+  [1m[35m (171.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-40@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:39.049890"], ["email", "exemplo-40@saci.com"], ["name", "Coy Ziemann"], ["password_digest", "$2a$10$KEcvq4ZXdB.QnT2nL8qBrebXl7TjE3Nz1Dp8KCSdijyRvPzv3.iSS"], ["remember_token", "2a994de3c0a10265234f928b69e6690ba7cca8a0"], ["updated_at", "2014-07-02 14:36:39.049890"]]
+  [1m[35m (128.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-41@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:39.264907"], ["email", "exemplo-41@saci.com"], ["name", "Violet Zulauf"], ["password_digest", "$2a$10$7r6Ic0WoKAtffM17oB6xT.9hmOgpRkdx5Wflq1PEBSMvPHatPxzXG"], ["remember_token", "56efd4f44b0f6fe7c5b9a4dfd38ec552f18ec8de"], ["updated_at", "2014-07-02 14:36:39.264907"]]
+  [1m[35m (120.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-42@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:39.478991"], ["email", "exemplo-42@saci.com"], ["name", "Sedrick Berge"], ["password_digest", "$2a$10$KH.YbOCmVbAXlNxdxBoOdeVqtjJJ1XFR5Y8JYuMF1022tlZtsQe2W"], ["remember_token", "ddddd1e5abdd357add3dc7400b83aa8b3aca3068"], ["updated_at", "2014-07-02 14:36:39.478991"]]
+  [1m[35m (164.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-43@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:39.730945"], ["email", "exemplo-43@saci.com"], ["name", "Maude Kunde"], ["password_digest", "$2a$10$72fUwYXsfC5UO2LNACs0euG0.sdi3mOdNXfzUQCRA6TPtrQnNv.sW"], ["remember_token", "502e2362b941f5c2f96f8b06bc932c2074a5d820"], ["updated_at", "2014-07-02 14:36:39.730945"]]
+  [1m[35m (139.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-44@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:39.960814"], ["email", "exemplo-44@saci.com"], ["name", "Zakary Rippin III"], ["password_digest", "$2a$10$082lS4hj79cpuuXPZo4mk.LKvG7qzenWmCanL7VrX70Kir.XeL8DK"], ["remember_token", "12262a43251ae26a9bf30a07c22bcf666f351251"], ["updated_at", "2014-07-02 14:36:39.960814"]]
+  [1m[35m (136.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-45@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:40.186062"], ["email", "exemplo-45@saci.com"], ["name", "Jerel Moore III"], ["password_digest", "$2a$10$q55L674P2ITTDk3TF/ZL9eqa6rQiotQfVK7uHk4vq.JaNnK.fE60W"], ["remember_token", "c9eac5273ea3ffa43e71780a944653a304f010ce"], ["updated_at", "2014-07-02 14:36:40.186062"]]
+  [1m[35m (138.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-46@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:40.412890"], ["email", "exemplo-46@saci.com"], ["name", "Mrs. Carmel Olson"], ["password_digest", "$2a$10$7E2LXgSWbNJcpXowg6OxpOrD0JY1ewZiCbTvCc8GqhT/KxEyWWZE6"], ["remember_token", "85093faf8c93600a2d56b4a6dde9ec26cc3522d3"], ["updated_at", "2014-07-02 14:36:40.412890"]]
+  [1m[35m (138.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-47@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:40.643553"], ["email", "exemplo-47@saci.com"], ["name", "Hermina Leffler"], ["password_digest", "$2a$10$WZPU0x3GyRou.uX1ewfKA.O0HO5yPT7xdI5cB7EW68oUg7GYFcbOu"], ["remember_token", "62b90cb3cdb91f346691dc01a54caa1aa8e38439"], ["updated_at", "2014-07-02 14:36:40.643553"]]
+  [1m[35m (166.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-48@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:40.896476"], ["email", "exemplo-48@saci.com"], ["name", "Jarrett Renner MD"], ["password_digest", "$2a$10$WM7wME52/FN5KRbLvPs1eOE3kpOdba4A7Nq2IaPJK93D6o3NssCiy"], ["remember_token", "b2e96036860c156c2d61eea63e6ce7e42acd23f5"], ["updated_at", "2014-07-02 14:36:40.896476"]]
+  [1m[35m (151.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-49@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:41.135214"], ["email", "exemplo-49@saci.com"], ["name", "Reva O'Kon"], ["password_digest", "$2a$10$mRYJQdVt5jinltRi1xekXuR.Vy8hBbIvmET5aUzg9nGJOw5qUii4."], ["remember_token", "25a8aec3848d47986fdb3251421b3757c43e119d"], ["updated_at", "2014-07-02 14:36:41.135214"]]
+  [1m[35m (139.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-50@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:41.364845"], ["email", "exemplo-50@saci.com"], ["name", "Winston Kihn"], ["password_digest", "$2a$10$si5UrKECXac46xeYAi4TOe1..BpTnIjGSuxOvB4wh2c6al3Nt6o4m"], ["remember_token", "68450e157742cbd7aed18c7053fd7c23218aadb1"], ["updated_at", "2014-07-02 14:36:41.364845"]]
+  [1m[35m (157.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-51@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:41.615234"], ["email", "exemplo-51@saci.com"], ["name", "Gregg Windler"], ["password_digest", "$2a$10$xScaLpkReYcNzgCNnN0HeOj3fwKNCwMlnz1viOa6t6HIl5VruYLXC"], ["remember_token", "c87af352c136729070608170e37d7cdb63c0ff8a"], ["updated_at", "2014-07-02 14:36:41.615234"]]
+  [1m[35m (133.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-52@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:41.842796"], ["email", "exemplo-52@saci.com"], ["name", "Adolfo Beer"], ["password_digest", "$2a$10$YiarO3n4jEyRL9rr0zdKuOgNHLORAzms.rU0Ib9tN5maacbhmcZaW"], ["remember_token", "753f4739c246f0fdddb8d58caba122d595d461f7"], ["updated_at", "2014-07-02 14:36:41.842796"]]
+  [1m[35m (133.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-53@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:42.062884"], ["email", "exemplo-53@saci.com"], ["name", "Donnell Sporer"], ["password_digest", "$2a$10$iuW8Hgd7/EZP0jnObN0U0OiGsmQ.E3XC2HXxGOboC3uaE3L.ctIgi"], ["remember_token", "4356873b8e6d7b26106cbd4957576c668f8181ab"], ["updated_at", "2014-07-02 14:36:42.062884"]]
+  [1m[35m (129.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-54@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:42.286644"], ["email", "exemplo-54@saci.com"], ["name", "Paolo Schoen"], ["password_digest", "$2a$10$m0easbOBDFQShnSqVllG4.LjeJj8cDe26QnWh12V1dv3p2UXb3pD."], ["remember_token", "09198c3c1b946d7a4f59d6ef9d2e1d81ddf12691"], ["updated_at", "2014-07-02 14:36:42.286644"]]
+  [1m[35m (133.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-55@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:42.514332"], ["email", "exemplo-55@saci.com"], ["name", "Janessa Leannon"], ["password_digest", "$2a$10$gXt.WNGRt8kX/3sE.Yyy2O3haYjGvAI9RMtZ9tw.9wV7PuIHTcVha"], ["remember_token", "4b8b2428d086fac8d7cc34693a8f7c1ac2d56ce4"], ["updated_at", "2014-07-02 14:36:42.514332"]]
+  [1m[35m (132.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-56@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:42.734392"], ["email", "exemplo-56@saci.com"], ["name", "Clara Dooley IV"], ["password_digest", "$2a$10$PQpj00EqpMHA6Sst0vD5t.hZ4Y796yZa.QkdwkXYU5HPI4QTvtiF2"], ["remember_token", "f911d1f88643042acabca238935c3a036acbb80f"], ["updated_at", "2014-07-02 14:36:42.734392"]]
+  [1m[35m (128.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-57@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:42.958130"], ["email", "exemplo-57@saci.com"], ["name", "Mrs. Flavio Torp"], ["password_digest", "$2a$10$xPjN8k/nc6TOyvs12xhXG.yjrGz8.9xG5mU6Y4nOmg8hn4WyTSZ5m"], ["remember_token", "bf7b56999d1671375e9b1cb75653ec0fab392bf6"], ["updated_at", "2014-07-02 14:36:42.958130"]]
+  [1m[35m (142.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-58@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:43.189871"], ["email", "exemplo-58@saci.com"], ["name", "Dr. Amelia Wintheiser"], ["password_digest", "$2a$10$5zcy3.C/Alpj/Gz6lVQJouzxfxtlcAP1g450KmJsfDMOD2eizPhGm"], ["remember_token", "eac5296157ce78a55a261b91694b42aec75fe3f9"], ["updated_at", "2014-07-02 14:36:43.189871"]]
+  [1m[35m (158.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-59@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:43.439779"], ["email", "exemplo-59@saci.com"], ["name", "Aaron Swift"], ["password_digest", "$2a$10$.CdQdRV0ouuBho21DPI42.waYwLYI916T9.pZ.xB9/t5x8dH0FG7K"], ["remember_token", "aeba2b98a3c0473268cab58ab0063ccd2bc9a02c"], ["updated_at", "2014-07-02 14:36:43.439779"]]
+  [1m[35m (157.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-60@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:43.690778"], ["email", "exemplo-60@saci.com"], ["name", "Miss Mae Bruen"], ["password_digest", "$2a$10$waeu36/KSNdLdv.2ZN.FweBhiAqIz4JZ9PpbqS9T2TvqMN8mZ36wG"], ["remember_token", "1c48bf3600219a87d0e8d6a8eb9341a38d74c3f6"], ["updated_at", "2014-07-02 14:36:43.690778"]]
+  [1m[35m (163.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-61@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:43.944847"], ["email", "exemplo-61@saci.com"], ["name", "Jerald Medhurst"], ["password_digest", "$2a$10$Sa.M9av3O2y2NMYcjVJRD.2UAtlotzyH3yKO.9DtYmguzGVfTDrp6"], ["remember_token", "ac7f322fec3928a30ffbecd3a41b7ad4d45080dc"], ["updated_at", "2014-07-02 14:36:43.944847"]]
+  [1m[35m (126.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-62@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:44.161165"], ["email", "exemplo-62@saci.com"], ["name", "Newton Sauer V"], ["password_digest", "$2a$10$AhTIeClpqBPGBb8iJs1Gfuc9SOoMH7UgUcPrDLtZZcPE5i1/paSYS"], ["remember_token", "9c517a42d22968a1c9f9d3e88b9cdcca56188c91"], ["updated_at", "2014-07-02 14:36:44.161165"]]
+  [1m[35m (147.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-63@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:44.400091"], ["email", "exemplo-63@saci.com"], ["name", "Garnett Wunsch"], ["password_digest", "$2a$10$JrW6hSQxaJAxuTEJtunOG.BjudnBXdSQdlRHfQiltDG34LSjlDWs."], ["remember_token", "a46d21e14251237409b16c3fea55a6fe77a212d9"], ["updated_at", "2014-07-02 14:36:44.400091"]]
+  [1m[35m (258.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-64@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:44.745163"], ["email", "exemplo-64@saci.com"], ["name", "Shemar Bergnaum I"], ["password_digest", "$2a$10$VBwG1rZoPdfcWVj01glT5uK1eaxhhbMywfxEySLXVEwfhFVKRsMci"], ["remember_token", "313b6f7bf05eefd227c9c5d472a89ccbb00bbb4c"], ["updated_at", "2014-07-02 14:36:44.745163"]]
+  [1m[35m (150.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-65@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:44.988041"], ["email", "exemplo-65@saci.com"], ["name", "Daphnee Heller"], ["password_digest", "$2a$10$wb6vxcoek0XuWQRrAFQP0eM/ENFMrMjv0qTaQhdAxpqvcZFqaWHnG"], ["remember_token", "7531c5373a5f094bf6a68929b611177c1ee4090a"], ["updated_at", "2014-07-02 14:36:44.988041"]]
+  [1m[35m (155.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-66@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:45.238370"], ["email", "exemplo-66@saci.com"], ["name", "Jaylan Schiller"], ["password_digest", "$2a$10$mS.MweZbEQKpUVcq44mxUeO2mTq1Wuu7buHjbxHaAOeyz8QiztWii"], ["remember_token", "0122225cf9786b20d0eb976c1c5c769b2350ead8"], ["updated_at", "2014-07-02 14:36:45.238370"]]
+  [1m[35m (142.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-67@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:45.469649"], ["email", "exemplo-67@saci.com"], ["name", "Hector Metz"], ["password_digest", "$2a$10$wVKmwsxnI7tdbbwZo3X2Su/P/S2E2QLqnJ7czlEZavIhc.pgT91VW"], ["remember_token", "9df9f7f04a9d7783388eb24b19aeef81c438adb9"], ["updated_at", "2014-07-02 14:36:45.469649"]]
+  [1m[35m (138.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-68@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:45.697256"], ["email", "exemplo-68@saci.com"], ["name", "Donnell Murray"], ["password_digest", "$2a$10$i1at840kyB7XGaWpzObouOAGxrWygMgGa0iCWPcMyY3G.6OEWJVku"], ["remember_token", "b987e01b2a41242e092c4496232571546f9a62c7"], ["updated_at", "2014-07-02 14:36:45.697256"]]
+  [1m[35m (147.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-69@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:45.936202"], ["email", "exemplo-69@saci.com"], ["name", "Domenick Price"], ["password_digest", "$2a$10$XcCpECsh3t2yzQ0VJSV7NuXo8To4Rx6F9jxPXKSu/ZpXQSkTA66EK"], ["remember_token", "a32f388e28835a93093cf59177ab7ca67fb57cb3"], ["updated_at", "2014-07-02 14:36:45.936202"]]
+  [1m[35m (166.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-70@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:46.190332"], ["email", "exemplo-70@saci.com"], ["name", "Euna Rice"], ["password_digest", "$2a$10$cdaA3JgI5MyFY8iReXJkVuJ5t77ZF14K3UM.EYOxLJF.kNo.eufG6"], ["remember_token", "88af1361355216e06386b84a0c6e9f8ca0fd9bbe"], ["updated_at", "2014-07-02 14:36:46.190332"]]
+  [1m[35m (180.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-71@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:46.463416"], ["email", "exemplo-71@saci.com"], ["name", "Mr. Maxine Funk"], ["password_digest", "$2a$10$ZQE7UPyiJQKS5rJnA1UvUOKSmVZmnKw4vU0T7iziTTRkiGi3t1RzW"], ["remember_token", "44acea1614cf8615df8edd97797e24ae7b98ce63"], ["updated_at", "2014-07-02 14:36:46.463416"]]
+  [1m[35m (156.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-72@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:46.714615"], ["email", "exemplo-72@saci.com"], ["name", "Mrs. Priscilla Feil"], ["password_digest", "$2a$10$fzjv8PQqI3qQHQaRzxokF.6a9n8OrrP/.BTPmd49184ruM49My4p2"], ["remember_token", "3db100973fe089359e66d7a410c63d9ad3791c3b"], ["updated_at", "2014-07-02 14:36:46.714615"]]
+  [1m[35m (173.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-73@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:46.979930"], ["email", "exemplo-73@saci.com"], ["name", "Santina Leuschke"], ["password_digest", "$2a$10$H7bv4qyLFa4DsZvb/dcDteUNy9qOAx9.B3V2phpOCcppCqe8Nuu6e"], ["remember_token", "3978bc28af13adc4ad747189c46cb2f3f455a649"], ["updated_at", "2014-07-02 14:36:46.979930"]]
+  [1m[35m (155.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-74@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:47.230144"], ["email", "exemplo-74@saci.com"], ["name", "Ms. Garrick Fahey"], ["password_digest", "$2a$10$F3rXhFKCpCRUk.ggSvQJOuLdr8VVxVK58wcvu0r0PIGBB9qQ7cQ4e"], ["remember_token", "5c3cf11a0b3747f5179ab3be9d36571b5a64e1d5"], ["updated_at", "2014-07-02 14:36:47.230144"]]
+  [1m[35m (142.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-75@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:47.461568"], ["email", "exemplo-75@saci.com"], ["name", "Mrs. Joaquin Wuckert"], ["password_digest", "$2a$10$Q4IdOVQ0ZOMXpaZgE3ANaeWrCMuW1layaeSKDYkbmEBwi7mUwzdAu"], ["remember_token", "96669fa7ce278fcf665b6ba3950a5410e7a439da"], ["updated_at", "2014-07-02 14:36:47.461568"]]
+  [1m[35m (168.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-76@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:47.723187"], ["email", "exemplo-76@saci.com"], ["name", "Stephan Sporer"], ["password_digest", "$2a$10$Hol8hhG7xyPhdE0i5mDXK..rNEwbh7kVjnx.Splim9CmSNi4exyfy"], ["remember_token", "cd142e9f1aacaf5d448dccbb712220854d137637"], ["updated_at", "2014-07-02 14:36:47.723187"]]
+  [1m[35m (154.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-77@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:47.966085"], ["email", "exemplo-77@saci.com"], ["name", "Jody Lynch II"], ["password_digest", "$2a$10$YSawoIK/FvEkjg8CcKxawei1MO48LDrcwGRBWY3SFuOsRtoT187ii"], ["remember_token", "75e7cf7e6bf3b89c82ff6f9c5a114349fd1130de"], ["updated_at", "2014-07-02 14:36:47.966085"]]
+  [1m[35m (138.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-78@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:48.193466"], ["email", "exemplo-78@saci.com"], ["name", "Carmela Lang"], ["password_digest", "$2a$10$1an.1v15qrJR/OhEHLhRFOZQmkJKTcbEXzLH91yz9VoJFRuFL8y7q"], ["remember_token", "8bdff77f51bffa234029670941c2b4c2f20e2c67"], ["updated_at", "2014-07-02 14:36:48.193466"]]
+  [1m[35m (168.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-79@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:48.455174"], ["email", "exemplo-79@saci.com"], ["name", "Dr. Thea Larson"], ["password_digest", "$2a$10$ZcggNW4aAZy1g1o89cNXqO2yiOtd1uq0Sc5HFvdNYDNINMkl83ik2"], ["remember_token", "85600a25ae66b920fdd633a4ddd53cd3ef029cbe"], ["updated_at", "2014-07-02 14:36:48.455174"]]
+  [1m[35m (164.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-80@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:48.709277"], ["email", "exemplo-80@saci.com"], ["name", "Noelia Rowe"], ["password_digest", "$2a$10$MyRCUAR0stJ2bbGtTvPYr.Y43./GaEjFuzRHGTHqAcLjX1qPDWo3S"], ["remember_token", "05ce7dda94dbfb9420391d81122fd46c139b964e"], ["updated_at", "2014-07-02 14:36:48.709277"]]
+  [1m[35m (168.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-81@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:48.971139"], ["email", "exemplo-81@saci.com"], ["name", "Shyann Jerde"], ["password_digest", "$2a$10$N7ycYt2QJG15XtYmIbLSn.HU5ACaHR3sCL2HD2Njeg0skeIXQdYiy"], ["remember_token", "3b38c5df71ff74ff51b69868689eefcb184b73f3"], ["updated_at", "2014-07-02 14:36:48.971139"]]
+  [1m[35m (174.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-82@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:49.236566"], ["email", "exemplo-82@saci.com"], ["name", "Alysa Lebsack PhD"], ["password_digest", "$2a$10$OTHFlmRJ.S2MiAVqK9sESOBFUQjx9EZhmVMl3BbJXedtAHjRZn2mK"], ["remember_token", "da7a1d247966d6707d1d9ebfd71534be41281417"], ["updated_at", "2014-07-02 14:36:49.236566"]]
+  [1m[35m (156.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-83@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:49.486876"], ["email", "exemplo-83@saci.com"], ["name", "Rosemarie Senger"], ["password_digest", "$2a$10$xW7E7w5hud27cNTeneh8geRcXCklAMmn.34wbcU1SxEuz0jMcwGBi"], ["remember_token", "cefd35ee3cc8752126d84247ade0c73582457259"], ["updated_at", "2014-07-02 14:36:49.486876"]]
+  [1m[35m (175.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-84@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:49.752905"], ["email", "exemplo-84@saci.com"], ["name", "Arvid Kunze"], ["password_digest", "$2a$10$UJ72pEs1dUFsLMxq3s3oQOSueWOkdRHSt0vLmqzCakiwl3xzwcVX6"], ["remember_token", "ab5dfc52923d30a748a3274f47ea9c92d788b300"], ["updated_at", "2014-07-02 14:36:49.752905"]]
+  [1m[35m (188.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-85@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:50.029760"], ["email", "exemplo-85@saci.com"], ["name", "Laurine Rohan"], ["password_digest", "$2a$10$DuVAUCEgILa65kJLCaZXvu58/S9Xct9d727giiqooqgavtm7AYkT2"], ["remember_token", "360f025aee32e35474de9e008a40e641c0dd08df"], ["updated_at", "2014-07-02 14:36:50.029760"]]
+  [1m[35m (179.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-86@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:50.302824"], ["email", "exemplo-86@saci.com"], ["name", "Magali Schultz IV"], ["password_digest", "$2a$10$hR3YqXMThFnqchFglQPd5uyQ45b0JGqslng2p6v0MGTTsGVppbEtK"], ["remember_token", "9d24e53a234864f0635351adad83a7f4b333fe0c"], ["updated_at", "2014-07-02 14:36:50.302824"]]
+  [1m[35m (163.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-87@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:50.556994"], ["email", "exemplo-87@saci.com"], ["name", "Toy Watsica"], ["password_digest", "$2a$10$75QPYRek8WFAOTlQ33y7T.DOCp1Uw27mtPm4pdcrbpFhPiTcZr5ou"], ["remember_token", "c2565240095d730df99719657a21adef322bf86d"], ["updated_at", "2014-07-02 14:36:50.556994"]]
+  [1m[35m (167.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-88@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:50.819055"], ["email", "exemplo-88@saci.com"], ["name", "Ray Zemlak"], ["password_digest", "$2a$10$2OKLp8Wqiz43PZBxJvhwIuIB/4RL5dLnNbITr3EgQZ2sIiO6lk3sK"], ["remember_token", "e510113b963a4d44c657ad594a71847917b6916b"], ["updated_at", "2014-07-02 14:36:50.819055"]]
+  [1m[35m (132.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-89@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:51.046283"], ["email", "exemplo-89@saci.com"], ["name", "Geoffrey Emard I"], ["password_digest", "$2a$10$/zQoIPenlp4teAxJTwrLxOab7UoqJvNRowROW35rAJOqMmL3p7cQi"], ["remember_token", "0b22e6e3509dc8d5725acce41cb5cbd302b5530e"], ["updated_at", "2014-07-02 14:36:51.046283"]]
+  [1m[35m (162.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-90@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:51.300251"], ["email", "exemplo-90@saci.com"], ["name", "Sonia Grady"], ["password_digest", "$2a$10$Xl7b9yvi3PqgLDJE1nqjOOnKYxfIlfrTfBe.EToZnaxJ0bnguxANG"], ["remember_token", "8ac8530050652c9d79df84f80bc7f436f8a53d0a"], ["updated_at", "2014-07-02 14:36:51.300251"]]
+  [1m[35m (156.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-91@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:51.550672"], ["email", "exemplo-91@saci.com"], ["name", "Jo Kuvalis"], ["password_digest", "$2a$10$8jUVugkRAATJ2T8jcO8jM.XDpb8SsYmOWay9TEtSnL6SnNWF0LeCm"], ["remember_token", "02cdc186fc28ad2e248203292c8fa82a7edf1e0f"], ["updated_at", "2014-07-02 14:36:51.550672"]]
+  [1m[35m (143.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-92@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:51.781992"], ["email", "exemplo-92@saci.com"], ["name", "Janie Schoen"], ["password_digest", "$2a$10$0WkLp.SdHDNycejQbsQcpO0mX4VUYi..RlkPylIGT34S62945qdre"], ["remember_token", "4e6ef6cfa064ebc7ea7e9bdb9e8eaa55fcae08da"], ["updated_at", "2014-07-02 14:36:51.781992"]]
+  [1m[35m (128.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-93@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:51.998261"], ["email", "exemplo-93@saci.com"], ["name", "Fay Klein"], ["password_digest", "$2a$10$5T2ZjqFRKvRoj70hOaviOOUTY5pvqhHx5wPwW7TjudBtMOWQg/eDS"], ["remember_token", "7051ea6f181d561be2f48e614830d45f9523d5c1"], ["updated_at", "2014-07-02 14:36:51.998261"]]
+  [1m[35m (139.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-94@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:52.225846"], ["email", "exemplo-94@saci.com"], ["name", "Ryley Erdman Jr."], ["password_digest", "$2a$10$r/a/f707.TUSlDcexJqUCOYPT0/AfgtLnJl92XdBQyKNW3cpgKDhK"], ["remember_token", "3ee335bd2cf5264c4e571ddc2bfdf7bc0e1090f2"], ["updated_at", "2014-07-02 14:36:52.225846"]]
+  [1m[35m (189.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-95@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:52.510259"], ["email", "exemplo-95@saci.com"], ["name", "Alison O'Hara"], ["password_digest", "$2a$10$XJwdH0SWv1KPB10Zq7Mx6uBUFOyP5Zer1w2taEVp7.BePtR9MWpOK"], ["remember_token", "01bdae3858d79d99165c7ea62c0d9a802ff82b85"], ["updated_at", "2014-07-02 14:36:52.510259"]]
+  [1m[35m (175.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-96@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:52.776338"], ["email", "exemplo-96@saci.com"], ["name", "Trent Nader"], ["password_digest", "$2a$10$GpsFyP6EzZLro9Xk1BihqePitTu.iT57TAl.LM73fqk.FEs3C7P6S"], ["remember_token", "c42390b348f498a4568db8bf2d6b6d023b4176bd"], ["updated_at", "2014-07-02 14:36:52.776338"]]
+  [1m[35m (177.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-97@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:53.041961"], ["email", "exemplo-97@saci.com"], ["name", "Katelynn Jones III"], ["password_digest", "$2a$10$NR3a678RZbvcuXTTzW1kKuERvXx44dWD46Qf4vm4jNvsd826ll/l2"], ["remember_token", "7d243103b0dfcc8b0d49c049735bb7f4f902fd2d"], ["updated_at", "2014-07-02 14:36:53.041961"]]
+  [1m[35m (169.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-98@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:53.303534"], ["email", "exemplo-98@saci.com"], ["name", "Bernhard O'Keefe"], ["password_digest", "$2a$10$CcdDF5pDD2lrr7PNEzMDjOlbSPm2gOd1Z72T0CdH35ueLKhNYTcZy"], ["remember_token", "cb1bdb4e88d053c04c5664f4c2b94c481ef57483"], ["updated_at", "2014-07-02 14:36:53.303534"]]
+  [1m[35m (144.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('exemplo-99@saci.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:36:53.542529"], ["email", "exemplo-99@saci.com"], ["name", "Alford Jast"], ["password_digest", "$2a$10$s8hrV9kqe9PywI9v5F4bauRRZWaoLS6rphgkcvsFiBJERp1nYv5c6"], ["remember_token", "fa327cb1ca0f21032e983740a66fa70618cc781e"], ["updated_at", "2014-07-02 14:36:53.542529"]]
+  [1m[35m (153.2ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-02 11:37:01 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:37:02 -0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 67ms (Views: 64.6ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_remember_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_remember_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:38:18 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-02 11:38:19 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-07-02 11:38:36 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"orzLyTEtNasW0wSN1KQptWj3MAESZSaDetilK93WkQQ=", "session"=>{"email"=>"miguel.corti42@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'miguel.corti42@gmail.com' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1[0m
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:37 -0300
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/_form.html.erb (11.9ms)
+  Rendered users/new.html.erb within layouts/application (13.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'b5607ede3e9b44afe4f7d7ea5fa2333a9d0daeeb' LIMIT 1
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:43 -0300
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"orzLyTEtNasW0wSN1KQptWj3MAESZSaDetilK93WkQQ=", "user"=>{"name"=>"Miguel", "email"=>"miguel.corti42@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Criar Conta"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('miguel.corti42@gmail.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-07-02 14:38:57.319836"], ["email", "miguel.corti42@gmail.com"], ["name", "Miguel"], ["password_digest", "$2a$10$DHcx.9oToDS3m6w.eK0VT.onEAk8GUxd7NhZM5uak.CNcsH7yOvDq"], ["remember_token", "6e3ea3764b2a859a9c3d70862a431bacad749f53"], ["updated_at", "2014-07-02 14:38:57.319836"]]
+  [1m[35m (180.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 101  [["remember_token", "fef53105e1530ab43eba5ca165f6d68247a36728"], ["updated_at", "2014-07-02 14:38:57.504569"]]
+  [1m[36m (133.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/101
+Completed 302 Found in 477ms (ActiveRecord: 316.1ms)
+
+
+Started GET "/users/101" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1[0m
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-02 11:38:57 -0300
+
+
+Started GET "/users" for 127.0.0.1 at 2014-07-02 11:38:59 -0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0
+  Rendered users/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 78ms (Views: 74.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users?page=2" for 127.0.0.1 at 2014-07-02 11:39:16 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 30[0m
+  Rendered users/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 31ms (Views: 27.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users?page=3" for 127.0.0.1 at 2014-07-02 11:39:23 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  LIMIT 30 OFFSET 60
+  Rendered users/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users?page=4" for 127.0.0.1 at 2014-07-02 11:39:26 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 90[0m
+  Rendered users/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users?page=3" for 127.0.0.1 at 2014-07-02 11:39:28 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  LIMIT 30 OFFSET 60
+  Rendered users/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 81ms (Views: 76.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users?page=2" for 127.0.0.1 at 2014-07-02 11:39:29 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 30[0m
+  Rendered users/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users?page=1" for 127.0.0.1 at 2014-07-02 11:39:30 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  LIMIT 30 OFFSET 0
+  Rendered users/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users?page=4" for 127.0.0.1 at 2014-07-02 11:39:38 -0300
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 30 OFFSET 90[0m
+  Rendered users/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/101" for 127.0.0.1 at 2014-07-02 11:39:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."remember_token" = 'fef53105e1530ab43eba5ca165f6d68247a36728' LIMIT 1[0m
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.5ms)
