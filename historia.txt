@@ -1,4 +1,14 @@
-- Semana 25/06 - 02/06
+- Semana 02/07 - 09/07
+	- O que era para eu ter feito na semana anterior?
+	R: Aprimorar o sistema de posts, usuários farão posts e poderão ver posts dos outros.
+
+	- O que eu fiz?
+	R: Aprimorar o sistema de posts, usuários farão posts e poderão ver posts dos outros.
+
+	- O que eu vou fazer?
+	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
+
+- Semana 25/06 - 02/07
 	- O que era para eu ter feito na semana anterior?
 	R: Aprimorar o sistema de posts, usuários farão posts e poderão ver posts dos outros.
 
