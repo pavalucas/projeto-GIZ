@@ -1,6 +1,9 @@
 <li>
   <span class="content"><%= post.content %></span>
   <span class="timestamp">
-    Postado <%= time_ago_in_words(post.created_at) %> atrás.
+  	Postado em 
+    <% createdTime = post.created_at.in_time_zone('Brasilia') %>
+    <%= createdTime.day%>/<%= createdTime.month%>/<%= createdTime.year%>
+     <%= createdTime.hour%>:<%= createdTime.min%>:<%= createdTime.sec%>
   </span>
 </li>
