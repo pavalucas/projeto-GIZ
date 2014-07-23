@@ -1,5 +1,5 @@
-Site da FIFA mostra os assuntos mais quentes da Copa do Mundo 2014
+Novo tipo de monitoramento na web deve estar vigiando as suas atividades
 
 ============
 
-http://www.tecmundo.com.br/futebol/58496-site-fifa-mostra-assuntos-quentes-da-copa-mundo-2014.htm
+http://www.tecmundo.com.br/internet/59445-novo-tipo-monitoramento-web-deve-vigiando-atividades.htm
