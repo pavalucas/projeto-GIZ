@@ -1,3 +1,13 @@
+- Semana 23/07 - 30/07
+	- O que era para eu ter feito na semana anterior?
+	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
+
+	- O que eu fiz?
+	R: Modelamos algumas relações entre grupos, posts e usuarios.
+		
+	- O que eu vou fazer?
+	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
+
 - Semana 16/07 - 23/07
 	- O que era para eu ter feito na semana anterior?
 	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
