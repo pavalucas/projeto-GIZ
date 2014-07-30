@@ -17,7 +17,7 @@ class PostsController < ApplicationController
   private
 
     def post_params
-      params.require(:post).permit(:content, :group_id)
+      params.require(:post).permit(:content, :group_id,:photo)
     end
 
     def signed_in_user

@@ -1,9 +1,11 @@
-<%= form_for(@post) do |f| %>
+<%= form_for(@post), :html => { :multipart => true } do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
     <%= f.text_area :content, placeholder: "Escrever novo post..." %>
   </div>      
   <%= f.label :group_id, "ID do grupo" %>
   <%= f.text_field :group_id %>
+  <%= f.file_field :photo %>
+
   <%= f.submit "Postar", class: "btn btn-large btn-primary" %>
 <% end %>
