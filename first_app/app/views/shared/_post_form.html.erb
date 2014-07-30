@@ -2,6 +2,8 @@
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
     <%= f.text_area :content, placeholder: "Escrever novo post..." %>
-  </div>
+  </div>      
+  <%= f.label :group_id, "ID do grupo" %>
+  <%= f.text_field :group_id %>
   <%= f.submit "Postar", class: "btn btn-large btn-primary" %>
 <% end %>

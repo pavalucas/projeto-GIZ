@@ -13,7 +13,7 @@ class GroupsController < ApplicationController
   # GET /groups/1.json
   def show
     @group = Group.find(params[:id])
-    @post = @group.posts.paginate(page: params[:page])
+    @posts = @group.posts.paginate(page: params[:page])
   end
 
   # GET /groups/new
