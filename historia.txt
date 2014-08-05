@@ -1,3 +1,13 @@
+- Semana 30/07 - 06/07
+	- O que era para eu ter feito na semana anterior?
+	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
+
+	- O que eu fiz?
+	R: Estabelecemos os usuários em grupos e agora os grupos possuem a funcionalidade de posts de texto, no momento estamos possibilitando o uso de imagens também.
+		
+	- O que eu vou fazer?
+	R: Finalizar a função de imagens e adicionar um menu fixo das utilizações dos grupos pelos alunos. 
+
 - Semana 23/07 - 30/07
 	- O que era para eu ter feito na semana anterior?
 	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
