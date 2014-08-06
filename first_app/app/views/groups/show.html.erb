@@ -1,31 +1,17 @@
-<p id="notice"><%= notice %></p>
+<h1><%= @group.name %><h1>
 
-<p>
-  <strong>Name:</strong>
-  <%= @group.name %>
-</p>
-
-
-<% if signed_in? %>
   <div class="row">
     <aside class="span4">
       <section>
         <%= render 'shared/user_info' %>
       </section>
-<%
-=begin %>
       <section>
         <%= render 'shared/post_form' %>
       </section>
-<%
-=end%> 
     </aside>
   </div>
-<%end%>
 
-
-
-
+<!-- Loading all group's posts-->
 <div class="span8">
     <% if @group.posts.any? %>
       <h3>Posts (<%= @group.posts.count %>)</h3>
