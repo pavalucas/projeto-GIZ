@@ -1,0 +1,15 @@
+<h1>dasdfas</h1>
+
+<%
+=begin %>
+<div class="span8">
+    <% if current_group.posts.any? %>
+      <h3>Posts (<%= current_group.posts.count %>)</h3>
+      <ol class="posts">
+        <%= render current_group.posts %>
+      </ol>
+      <%= will_paginate @posts %>
+    <% end %>
+</div>
+<%
+=end %>
