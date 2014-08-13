@@ -1,4 +1,14 @@
-- Semana 30/07 - 06/07
+- Semana 06/08 - 13/08
+ - O que era para eu ter feito na semana anterior?
+ R: Finalizar a função de imagens e adicionar um menu fixo das utilizações dos grupos pelos alunos.
+
+ - O que eu fiz?
+ R: Finalizamos a função de imagens e estamos terminando o menu fixo das utilizações.
+
+ - O que eu vou fazer?
+ R: Finalizar o menu fixo das utilizações e implementar o calendário.
+
+- Semana 30/07 - 06/08
 	- O que era para eu ter feito na semana anterior?
 	R: Definir usuários como turma (grupo de alunos), aluno ou professor e atribuir o que cada um pode realizar.
 
