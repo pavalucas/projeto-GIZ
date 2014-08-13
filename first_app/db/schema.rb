@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 20140730155058) do
     t.datetime "photo_updated_at"
   end
 
+  add_index "posts", ["user_id", "created_at"], name: "index_posts_on_user_id_and_created_at"
+
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
