@@ -5,5 +5,8 @@
     <% createdTime = post.created_at.in_time_zone('Brasilia') %>
     <%= createdTime.day%>/<%= createdTime.month%>/<%= createdTime.year%>
      <%= createdTime.hour%>:<%= createdTime.min%>:<%= createdTime.sec%>
-  </span>
+  </span><br>
+  <% if post.photo.present? %>
+  	<%= image_tag post.photo.url %>
+  <% end %>
 </li>
