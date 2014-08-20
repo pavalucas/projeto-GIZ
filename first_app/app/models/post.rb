@@ -5,8 +5,8 @@ class Post < ActiveRecord::Base
 	validates :user_id, presence: true
 	validates :group_id, presence: true
 	validates :content, presence: true
-	has_attached_file :photo,
-				:styles => { :medium => "300x300>", :thumb => "100x100>" }
-	validates_attachment_content_type :photo, :content_type => /\Aimage\/.*\Z/
+	has_attached_file :photo
+	validates_attachment_content_type :photo, :content_type => 
+	['image/jpg','image/jpeg','image/pjpeg','image/png','image/x-png','image/gif','text/plain','application/mspowerpoint','application/vnd.ms-powerpoint','application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/msexcel','application/vnd.ms-excel','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/pdf','application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' ]
 	validates_attachment_size :photo, :less_than => 5.megabytes
 end
