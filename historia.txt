@@ -1,3 +1,13 @@
+- Semana 13/08 - 20/08
+ - O que era para eu ter feito na semana anterior?
+ R: Finalizar o menu fixo das utilizações e implementar o calendario.
+
+ - O que eu fiz?
+ R: Terminamos o menu fixo das utilizações.
+
+ - O que eu vou fazer?
+ R: Implementar o calendário
+
 - Semana 06/08 - 13/08
  - O que era para eu ter feito na semana anterior?
  R: Finalizar a função de imagens e adicionar um menu fixo das utilizações dos grupos pelos alunos.
