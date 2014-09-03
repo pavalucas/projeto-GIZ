@@ -1,3 +1,13 @@
+- Semana 27/08 - 03/09
+ - O que era para eu ter feito na semana anterior?
+ R: Inserir todas as funções do calendário que desejamos
+
+ - O que eu fiz?
+ R: Devido a semana de provas, nada foi feito
+
+ - O que eu vou fazer?
+ R: Inserir todas as funções do calendário que desejamos
+
 - Semana 20/08 - 27/08
  - O que era para eu ter feito na semana anterior?
  R: Implementar o calendário
