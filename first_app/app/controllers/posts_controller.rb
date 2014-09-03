@@ -14,10 +14,22 @@ class PostsController < ApplicationController
   def destroy
   end
 
+  def download 
+    @post = current_user.posts.find(params_photo_id)
+    send_file @post.photo.path, 
+      :type => @post.photo_content_type,
+      :disposition => 'inline' 
+  end
+
   private
 
     def post_params
-      params.require(:post).permit(:content, :group_id,:photo)
+      params.require(:post).permit(:content, :group_id, :photo)
+    end
+
+    def params_photo_id
+      #debugger
+      params.require(:id)
     end
 
     def signed_in_user
