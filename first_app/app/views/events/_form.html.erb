@@ -11,19 +11,19 @@
     </div>
   <% end %>
 
-  <div id="eventField" class="field">
+  <div class="field">
     <%= f.label :title, "Nome" %><br>
     <%= f.text_field :title %>
   </div>
-  <div id="eventField" class="field">
+  <div  class="field">
     <%= f.label :description, "Descrição" %><br>
     <%= f.text_area :description %>
   </div>
-  <div id="eventField" class="field">
+  <div class="field time">
     <%= f.label :start_time, "Início" %><br>
     <%= f.datetime_select :start_time %>
   </div>
-  <div id="eventField" class="field">
+  <div class="field time">
     <%= f.label :end_time, "Fim" %><br>
     <%= f.datetime_select :end_time %>
   </div>
