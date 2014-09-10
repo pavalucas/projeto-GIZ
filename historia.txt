@@ -1,3 +1,14 @@
+
+- Semana 03/09 - 10/09
+ - O que era para eu ter feito na semana anterior?
+ R: Inserir todas as funções do calendário que desejamos
+
+ - O que eu fiz?
+ R: Adicionamos a função de download de documentos postados e consertamos problemas com o calendário
+
+ - O que eu vou fazer?
+ R: Definir os posts por matéria e criar um menu mostrando as matéria
+
 - Semana 27/08 - 03/09
  - O que era para eu ter feito na semana anterior?
  R: Inserir todas as funções do calendário que desejamos
@@ -13,7 +24,7 @@
  R: Implementar o calendário
 
  - O que eu fiz?
- R: Implementamos o calendário, porém algumas de suas funções ainda precisam ser inseridas (Relatório será entregue ainda hoje (27/08))
+ R: Implementamos o calendário, porém algumas de suas funções ainda precisam ser inseridas
 
  - O que eu vou fazer?
  R: Inserir todas as funções do calendário que desejamos
