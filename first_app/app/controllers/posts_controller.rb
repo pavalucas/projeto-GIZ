@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   before_action :signed_in_user
 
   def create
+    debugger
     @post = current_user.posts.build(post_params)
     if @post.save
       flash[:success] = "Post criado!"
@@ -24,7 +25,7 @@ class PostsController < ApplicationController
   private
 
     def post_params
-      params.require(:post).permit(:content, :group_id, :photo)
+      params.require(:post).permit(:content, :group_id, :photo, :subject)
     end
 
     def params_photo_id
