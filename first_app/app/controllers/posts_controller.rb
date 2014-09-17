@@ -2,7 +2,6 @@ class PostsController < ApplicationController
   before_action :signed_in_user
 
   def create
-    debugger
     @post = current_user.posts.build(post_params)
     if @post.save
       flash[:success] = "Post criado!"
@@ -22,6 +21,12 @@ class PostsController < ApplicationController
       :disposition => 'inline' 
   end
 
+  def showSubject
+    #debugger
+    @post = current_user.posts.where(subject: params_subject)
+    #render 'posts/_post'
+  end
+
   private
 
     def post_params
@@ -31,6 +36,11 @@ class PostsController < ApplicationController
     def params_photo_id
       #debugger
       params.require(:id)
+    end
+
+    def params_subject
+      #debugger
+      params.require(:subject)
     end
 
     def signed_in_user

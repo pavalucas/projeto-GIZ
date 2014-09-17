@@ -4,12 +4,18 @@
 <h1><%=current_group.name %></h1>
 <%
 =end%>
+
     <div class = "menu">
         <nav>
         	<ul class="nav pull-left">
         		<li><%= link_to "Feed de Posts", root_path %></li>
        			<li><%= link_to "Calendário", root_path %></li>
        			<li><%= link_to "Materias", root_path%></li>
+              <ul>
+                <li><%= link_to "História", "/subject/História"%></li>
+                <li><%= link_to "Geografia", root_path%></li>
+                <li><%= link_to "Física", root_path%></li>
+              </ul>  
        		</ul>
        	</nav>
     </div>
