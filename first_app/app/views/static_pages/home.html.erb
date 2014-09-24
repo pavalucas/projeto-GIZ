@@ -8,13 +8,13 @@
         <nav>
         	<ul class="nav pull-left">
         		<li><%= link_to "Feed de Posts", root_path %></li>
-       			<li><%= link_to "Calendário", root_path %></li>
+       			<li><%= link_to "Calendário", events_path %></li>
        			<li><%= link_to "Materias", root_path%></li>
        		</ul>
        	</nav>
     </div>
 	<div class="row">
-    	<aside class="span4">
+    	<aside id="postDiv" class="span4">
       		<section>
         		<%= render 'shared/user_info' %>
       		</section>

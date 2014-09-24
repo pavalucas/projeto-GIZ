@@ -154,6 +154,9 @@ input, textarea, select, .uneditable-input {
 
 /* posts */
 
+#postDiv{
+  width: 50%
+}
 .posts {
   list-style: none;
   margin: 10px 0 0 0;
@@ -200,6 +203,18 @@ aside {
 .mfield{
   height: 100px;
   width: 100px;
+}
+
+.field{
+  width:50%;
+}
+
+.field select {
+  width:18%;
+}
+
+.field input{
+  height: 100%;
 }
 
 #menu{

@@ -1,0 +1,13 @@
+<h1>Calendário</h1>
+<script>
+    $("#calendar").fullCalendar({
+        events: '/events.json'
+    });
+</script>
+<div id="calendar"></div> 
+<br><br>
+<%= link_to 'New Event', new_event_path, class: "btn btn-primary" %>
+
+
+
+
