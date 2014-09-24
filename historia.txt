@@ -6,7 +6,7 @@
 	R: Tentamos colocar no heroku, porém não conseguimos e os posts estão organizados por matéria, podendo clicar no menu a matéria desejada.
 
 	- O que vou fazer?
-	R: Consertar a relação entre os posts, usuários e turmas. Criar o usuário tipo professor.
+	R: Consertar a relação entre os posts, usuários e turmas. Criar usuário tipo professor.
 
 - Semana 10/09 - 17/09:
 	- O que era para eu ter feito na semana anterior?
