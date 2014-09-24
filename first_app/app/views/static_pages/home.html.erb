@@ -11,10 +11,11 @@
         		<li><%= link_to "Feed de Posts", root_path %></li>
        			<li><%= link_to "Calendário", root_path %></li>
        			<li><%= link_to "Materias", root_path%></li>
+            <% subjects = Subject.all %>
               <ul>
-                <li><%= link_to "História", "/subject/História"%></li>
-                <li><%= link_to "Geografia", root_path%></li>
-                <li><%= link_to "Física", root_path%></li>
+                <% subjects.each do |f| %>
+                  <li><%= link_to f.name, "/subject/#{f.name}"%></li>
+                <% end %>
               </ul>  
        		</ul>
        	</nav>

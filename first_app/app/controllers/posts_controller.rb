@@ -23,8 +23,10 @@ class PostsController < ApplicationController
 
   def showSubject
     #debugger
-    @post = current_user.posts.where(subject: params_subject)
-    #render 'posts/_post'
+    @posts = current_user.posts.where(subject: params_subject).paginate(page: params[:page])
+    @user = current_user
+    @post_count = @posts.count 
+    render 'shared/_user_posts'
   end
 
   private
