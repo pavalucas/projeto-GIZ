@@ -1,7 +1,16 @@
+- Semana 17/09 - 24/09:
+	- O que era para eu ter feito na semana anterior?
+    R: Criar o menu das materias e consertar a relação entre os posts, usuários e turmas.
+
+	- O que eu fiz?
+	R: Tentamos colocar no heroku, porém não conseguimos e os posts estão organizados por matéria, podendo clicar no menu a matéria desejada.
+
+	- O que vou fazer?
+	R: Consertar a relação entre os posts, usuários e turmas. Criar o usuário tipo professor.
 
 - Semana 10/09 - 17/09:
 	- O que era para eu ter feito na semana anterior?
-        R: Definir os posts por matéria e criar um menu mostrando as matéria.
+    R: Definir os posts por matéria e criar um menu mostrando as matéria.
  
 	- O que eu fiz?
 	R: Os usuarios agora atribuem a materia de um post e algumas questoes de css foram arrumadas.
