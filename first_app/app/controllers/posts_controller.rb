@@ -21,15 +21,28 @@ class PostsController < ApplicationController
       :disposition => 'inline' 
   end
 
+  def showSubject
+    #debugger
+    @posts = current_user.posts.where(subject: params_subject).paginate(page: params[:page])
+    @user = current_user
+    @post_count = @posts.count 
+    render 'shared/_user_posts'
+  end
+
   private
 
     def post_params
-      params.require(:post).permit(:content, :group_id, :photo)
+      params.require(:post).permit(:content, :group_id, :photo, :subject)
     end
 
     def params_photo_id
       #debugger
       params.require(:id)
+    end
+
+    def params_subject
+      #debugger
+      params.require(:subject)
     end
 
     def signed_in_user
