@@ -2,12 +2,12 @@
   <%= render 'shared/error_messages', object: f.object %>
 
   <div class="row">
-    <div class="span6 offset3">    
+    <div class="span6 offset3 field">
       <%= f.label :name, "Nome" %>
       <%= f.text_field :name %>
 
       <%= f.label :email %>
-      <%= f.text_field :email %>
+      <%= f.email_field :email %>
 
       <%= f.label :password, "Senha"%>
       <%= f.password_field :password%>
@@ -15,8 +15,14 @@
       <%= f.label :password_confirmation, "Confirme sua senha" %>
       <%= f.password_field :password_confirmation %>
 
-      <%= f.label :group_id, "ID do grupo" %>
-      <%= f.text_field :group_id %>
+      <%= f.label :group, "Grupo" %>
+      <% groups = Group.all.map{ |f| [f.name, f.id] } %>
+      <%= select_tag(:group, options_for_select(groups)) %>
+
+      <%= f.label :teacher, "Professor" %>
+      <%= f.check_box :teacher %>
+
+      <br><br>
 
       <%= f.submit "Criar Conta", class: "btn btn-large btn-primary" %>
     </div>

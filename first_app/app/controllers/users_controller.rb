@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   before_action :signed_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user, only: :destroy
+  before_action :teacher_user, only: [:index, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
@@ -63,7 +64,7 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation, :group_id)
+                                   :password_confirmation, :group_id, :teacher)
     end
 
     def signed_in_user
@@ -80,6 +81,10 @@ class UsersController < ApplicationController
       redirect_to(root_url) unless current_user.admin?
     end
 
+    def teacher_user
+      redirect_to(root_url) unless current_user.teacher?
+    end
+    
     def set_user
       @user = User.find(params[:id])
     end

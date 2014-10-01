@@ -1,3 +1,13 @@
+- Semana 24/09 - 01/10:
+	- O que era para eu ter feito na semana anterior?
+    R: Consertar a relação entre os posts, usuários e turmas. Criar usuário tipo professor.
+
+	- O que eu fiz?
+	R: Criamos o scaffold subjects e o usuário escolhe se sua conta é do tipo professor.
+
+	- O que vou fazer?
+	R: Consertar problemas de responsividade e melhorar a relacão entre posts, usuários e turmas.
+
 - Semana 17/09 - 24/09:
 	- O que era para eu ter feito na semana anterior?
     R: Criar o menu das materias e consertar a relação entre os posts, usuários e turmas.
