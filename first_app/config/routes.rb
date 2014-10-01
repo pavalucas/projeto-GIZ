@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :subjects
+
   resources :events
 
   resources :groups
@@ -20,6 +22,8 @@ Rails.application.routes.draw do
   match '/signout', to: 'sessions#destroy',     via: 'delete'
   match '/groupnew', to: 'groups#new',          via: 'get'
   match '/photos/:id/download', to: 'posts#download', via: 'get'
+  match '/subject/:subject', to: 'posts#showSubject', via: 'get'
+  match '/subjectnew', to: 'subjects#new', via: 'get'
   match '/groupnew',to: 'groups#new',           via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.

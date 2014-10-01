@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140924140854) do
+ActiveRecord::Schema.define(version: 20140924142819) do
 
   create_table "events", force: true do |t|
     t.string   "title"
@@ -39,9 +39,14 @@ ActiveRecord::Schema.define(version: 20140924140854) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
+    t.string   "subject"
   end
 
-  add_index "posts", ["user_id", "created_at"], name: "index_posts_on_user_id_and_created_at"
+  create_table "subjects", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "name"
