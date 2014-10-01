@@ -152,7 +152,7 @@ DEPENDENCIES
   fullcalendar-rails
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
-  paperclip (= 4.1)
+  paperclip (~> 4.1)
   pg (= 0.15.1)
   rails (= 4.1.0)
   rails_12factor (= 0.0.2)
