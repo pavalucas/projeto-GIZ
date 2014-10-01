@@ -3,6 +3,7 @@ class PostsController < ApplicationController
 
   def create
     @post = current_user.posts.build(post_params)
+    @post.group_id = current_user.group_id
     if @post.save
       flash[:success] = "Post criado!"
       redirect_to root_url
