@@ -1,6 +1,8 @@
+/* @import "bootstrap-sprockets";*/
 @import "bootstrap";
 
-$grayMediumLight: #eaeaea;
+$grayLight:                     #999  !default;
+$grayLighter:                   #eee  !default;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -154,9 +156,6 @@ input, textarea, select, .uneditable-input {
 
 /* posts */
 
-#postDiv{
-  width: 50%
-}
 
 .posts {
   list-style: none;
@@ -218,14 +217,14 @@ aside {
 }
 
 
-#menu{
+/*#menu{
   height: 100%;
   width: 100%;
   margin-left: -350px;
   padding: 0px;
   background-color: #013370; 
   color: white;
-}
+}*/
 
 body, html { /* set size of body to full page and remove margins */
     width: 100%;
@@ -233,13 +232,13 @@ body, html { /* set size of body to full page and remove margins */
     padding: 0;
     margin-top: 2%;
 }
-
+/*
 .menu{
   height: 100%;
   width: 100%;
   margin: 0 0 0 -30%;
   background-color: #013370;
-}
+}*/
 
 /*Jquery menu*/
 /*/*
@@ -276,7 +275,8 @@ body, html { /* set size of body to full page and remove margins */
     right: 40px;
 }
  
-/* Menu Header/Breadcrumbs */
+/* Menu Header/Breadcrumbs 
+
 .dd-wrapper .dd-header {
     font-size: 0.9em;
 }
@@ -294,4 +294,4 @@ body, html { /* set size of body to full page and remove margins */
     padding: 5px 10px;
     margin: 0;
     font-size: 1.2em;
-}
+}*/

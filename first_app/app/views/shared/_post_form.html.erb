@@ -8,7 +8,7 @@
 	<%= f.text_field :group_id %>
 	<%= f.file_field :photo %>
 	<%= f.label :subject, "Matéria" %>
-	<% subjects = Subject.all.map{ |f| [f.name, f.id] } %>
-	<%= select_tag(:subject, options_for_select(subjects)) %>	
+	<% subjects = Subject.all.map{ |f| [f.name] } %>
+	<%= f.select :subject, options_for_select(subjects) %>	
 	<%= f.submit "Postar", class: "btn btn-large btn-primary" %>
 <% end %>

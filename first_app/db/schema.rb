@@ -57,7 +57,6 @@ ActiveRecord::Schema.define(version: 20140924142819) do
     t.string   "remember_token"
     t.boolean  "admin",           default: false
     t.integer  "group_id"
-    t.boolean  "teacher"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

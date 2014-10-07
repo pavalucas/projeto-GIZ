@@ -5,40 +5,39 @@
 <%
 =end%>
 
-    <div class = "menu">
-        <nav>
-        	<ul class="nav pull-left">
-        		<li><%= link_to "Feed de Posts", root_path %></li>
-       			<li><%= link_to "Calendário", events_path %></li>
-       			<li><%= link_to "Materias", root_path%></li>
-            <% subjects = Subject.all %>
-              <ul>
-                <% subjects.each do |f| %>
-                  <li><%= link_to f.name, "/subject/#{f.name}"%></li>
-                <% end %>
-              </ul>  
-       		</ul>
-       	</nav>
-    </div>
-	<div class="row">
-    	<aside id="postDiv" class="span4">
-      		<section>
-        		<%= render 'shared/user_info' %>
-      		</section>
-      		<section>
-        		<%= render 'shared/post_form' %>
-      		</section>
-    	</aside>
-  	</div>
-
-<%else%>
-<div class="center hero-unit">
-  <h1>Bem-vindo ao  Projeto-SACI</h1>
-
-  <h2>
-    Essa é a página inicial do nosso projeto.
-  </h2>
-
-  <%= link_to "Inscreva-se agora", signup_path, class: "btn btn-large btn-primary" %>
+<div class="row">
+  <div class = "col-md-2">
+    <nav>
+     	<ul class="nav pull-left">
+     		<li><%= link_to "Feed de Posts", root_path %></li>
+    		<li><%= link_to "Calendário", events_path %></li>
+    		<li><%= link_to "Materias", root_path%></li>
+        <% subjects = Subject.all %>
+        <ul>
+          <% subjects.each do |f| %>
+            <li><%= link_to f.name, "/subject/#{f.name}"%></li>
+            <% end %>
+        </ul>  
+    	</ul>
+    </nav>
+  </div>
+  <aside class="col-md-10">
+  	<section>
+   		<%= render 'shared/user_info' %>
+  	</section>
+  	<section>
+   		<%= render 'shared/post_form' %>
+  	</section>
+  </aside>
 </div>
+<%else%>
+  <div class="center hero-unit">
+    <h1>Bem-vindo ao  Projeto-SACI</h1>
+
+    <h2>
+      Essa é a página inicial do nosso projeto.
+    </h2>
+
+    <%= link_to "Inscreva-se agora", signup_path, class: "btn btn-large btn-primary" %>
+  </div>
 <%end%>
