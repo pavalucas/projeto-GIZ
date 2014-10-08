@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140924142819) do
+ActiveRecord::Schema.define(version: 20141001141903) do
 
   create_table "events", force: true do |t|
     t.string   "title"
@@ -42,6 +42,8 @@ ActiveRecord::Schema.define(version: 20140924142819) do
     t.string   "subject"
   end
 
+  add_index "posts", ["user_id", "created_at"], name: "index_posts_on_user_id_and_created_at"
+
   create_table "subjects", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -57,6 +59,7 @@ ActiveRecord::Schema.define(version: 20140924142819) do
     t.string   "remember_token"
     t.boolean  "admin",           default: false
     t.integer  "group_id"
+    t.boolean  "teacher"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

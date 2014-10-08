@@ -19,6 +19,8 @@
       <% groups = Group.all.map{ |f| [f.name, f.id] } %>
       <%= f.select :group_id, options_for_select(groups) %>
       
+      <%= f.label :teacher, "Professor" %>
+      <%= f.check_box :teacher %>
 
       <br><br>
 
