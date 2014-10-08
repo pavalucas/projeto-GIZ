@@ -1,9 +1,4 @@
 <% if signed_in?%>
-<%
-=begin
-<h1><%=current_group.name %></h1>
-<%
-=end%>
 
 <div class="row">
   <div class = "col-md-2" >
@@ -28,8 +23,12 @@
   	<section>
    		<%= render 'shared/post_form' %>
   	</section>
+    <section>
+      <%= render 'shared/group_posts' %>
+    </section>
   </aside>
 </div>
+
 <%else%>
   <div class="center hero-unit">
     <h1>Bem-vindo ao  Projeto-SACI</h1>

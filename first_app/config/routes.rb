@@ -12,10 +12,9 @@ Rails.application.routes.draw do
 
   resources :sessions, only: [:new, :create, :destroy]
 
-  #resources :posts, only: [:create, :destroy, :download], :member => { :photos => :get }
   resources :posts, only: [:create, :destroy, :download], :member => { :photos => :get }
 
-  root  'static_pages#home'
+  #root  'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
@@ -24,6 +23,7 @@ Rails.application.routes.draw do
   match '/groupnew', to: 'groups#new',          via: 'get'
   match '/photos/:id/download', to: 'posts#download', via: 'get'
   match '/subject/:subject', to: 'posts#showSubject', via: 'get'
+  root  'posts#home'
   match '/subjectnew', to: 'subjects#new', via: 'get'
   match '/groupnew',to: 'groups#new',           via: 'get'
 
