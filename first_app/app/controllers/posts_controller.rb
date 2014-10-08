@@ -15,7 +15,7 @@ class PostsController < ApplicationController
   def destroy
   end
 
-  def download 
+  def download
     @post = current_user.posts.find(params_photo_id)
     send_file @post.photo.path, 
       :type => @post.photo_content_type,
