@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
+  before_action :signed_in_user
   before_action :set_event, only: [:show, :edit, :update, :destroy]
 
   # GET /events
@@ -70,5 +71,10 @@ class EventsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def event_params
       params.require(:event).permit(:title, :description, :start_time, :end_time)
+    end
+
+    def signed_in_user
+      store_location
+      redirect_to signin_url, notice: "Você não está logado." unless signed_in?
     end
 end
