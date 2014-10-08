@@ -1,3 +1,13 @@
+- Semana 01/10 - 08/10:
+	- O que era para eu ter feito na semana anterior?
+    R: Consertar problemas de responsividade e melhorar a relacão entre posts, usuários e turmas.
+
+	- O que eu fiz?
+	R: Consertamos os problemas de responsividade, atualizando o bootstrap e fizemos a relação entre posts, usuários, turmas e subjects.
+
+	- O que vou fazer?
+	R: Montar nicho para a feira de ciências e melhorar o design do site.
+
 - Semana 24/09 - 01/10:
 	- O que era para eu ter feito na semana anterior?
     R: Consertar a relação entre os posts, usuários e turmas. Criar usuário tipo professor.
