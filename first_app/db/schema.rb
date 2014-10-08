@@ -42,6 +42,8 @@ ActiveRecord::Schema.define(version: 20141001141903) do
     t.string   "subject"
   end
 
+  add_index "posts", ["user_id", "created_at"], name: "index_posts_on_user_id_and_created_at"
+
   create_table "subjects", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
