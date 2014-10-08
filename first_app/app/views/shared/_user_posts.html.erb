@@ -2,13 +2,26 @@
 
 <% provide(:title, @user.name) %>
 <div class="row">
-  <aside class="span4">
-    <section>
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
-      </h1>
-    </section>
-  </aside>
-  <div class="span8">
-     
+  <div class = "col-md-3">
+    <aside class="span4">
+      <section>
+        <h1>
+          <%= gravatar_for @user %>
+          <%= @user.name %>
+        </h1>
+      </section>
+    </aside>
+  </div>
+  <div class = "col-md-9">
+    <div class="span8">
+      <% if @user.posts.any? %>
+        <h3>Posts (<%= @post_count %>)</h3>
+        <ol class="posts">
+          <%= render @posts %>
+        </ol>
+        <%= will_paginate @posts %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
