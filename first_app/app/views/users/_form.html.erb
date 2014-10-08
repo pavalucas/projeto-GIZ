@@ -2,7 +2,7 @@
   <%= render 'shared/error_messages', object: f.object %>
 
   <div class="row">
-    <div class="span6 offset3 field">
+    <div class="col-md-6 col-md-offset-3">
       <%= f.label :name, "Nome" %>
       <%= f.text_field :name %>
 
@@ -19,8 +19,6 @@
       <% groups = Group.all.map{ |f| [f.name, f.id] } %>
       <%= f.select :group_id, options_for_select(groups) %>
       
-      <%= f.label :teacher, "Professor" %>
-      <%= f.check_box :teacher %>
 
       <br><br>
 
