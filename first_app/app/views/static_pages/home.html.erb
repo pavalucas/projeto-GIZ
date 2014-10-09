@@ -1,21 +1,6 @@
 <% if signed_in?%>
 
 <div class="row">
-  <div class = "col-md-2" >
-    <nav>
-     	<ul class="nav navbar-left">
-     		<li><%= link_to "Feed de Posts", root_path %></li>
-    		<li><%= link_to "Calendário", events_path %></li>
-    		<li><%= link_to "Materias", root_path%></li>
-        <% subjects = Subject.all %>
-        <ul>
-          <% subjects.each do |f| %>
-            <li><%= link_to f.name, "/subject/#{f.name}"%></li>
-            <% end %>
-        </ul>  
-    	</ul>
-    </nav>
-  </div>
   <aside class="col-md-6">
   	<section>
    		<%= render 'shared/user_info' %>
@@ -36,7 +21,7 @@
     <h2>
       Essa é a página inicial do nosso projeto.
     </h2>
-
+    <br>
     <%= link_to "Inscreva-se agora", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
 <%end%>

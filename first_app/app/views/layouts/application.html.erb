@@ -27,10 +27,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><%= link_to "Feed", root_path %></li>
-            <li><%= link_to "Sobre", help_path %></li>
             <% if signed_in? %>
-              <li><%= link_to "Turmas", groups_path %></li>
+              <li class="active"><%= link_to "Feed", root_path %></li>
+              <li><%= link_to "Sobre", help_path %></li>
+              <li><%= link_to "Calendário", events_path %></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matérias <span class="caret"></span></a>
+                <% subjects = Subject.all %>
+                <ul class="dropdown-menu" role="menu">
+                  <% subjects.each do |f| %>
+                    <li><%= link_to f.name, "/subject/#{f.name}"%></li>
+                    <% end %>
+                </ul>
+              </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conta <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -41,6 +50,8 @@
                 </ul>
               </li>
               <% else %>
+              <li class="active"><%= link_to "Início", root_path %></li>
+              <li><%= link_to "Sobre", help_path %></li>
               <li><%= link_to "Entrar", signin_path %></li>
             <% end %>
           </ul>
