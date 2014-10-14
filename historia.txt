@@ -1,3 +1,13 @@
+- Semana 08/10 - 15/10:
+	- O que era para eu ter feito na semana anterior?
+    R: Montar nicho para a feira de ciências e melhorar o design do site.
+
+	- O que eu fiz?
+	R: Fizemos mudanças no design do site e mudamos o menu de funcionalidades do usuario para o header.
+
+	- O que vou fazer?
+	R: Trabalhar mais na ideia do nome e da identidade do site e montar o nicho para feira de ciências.
+
 - Semana 01/10 - 08/10:
 	- O que era para eu ter feito na semana anterior?
     R: Consertar problemas de responsividade e melhorar a relacão entre posts, usuários e turmas.
