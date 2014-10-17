@@ -5,25 +5,26 @@
     </div>
     <div class="col-md-6 col-md-offset-3">
       <%= f.label :name, "Nome" %>
-      <%= f.text_field :name %>
+      <%= f.text_field :name, placeholder: "Escreva seu nome"%>
 
       <%= f.label :email %>
-      <%= f.email_field :email %>
+      <%= f.email_field :email, placeholder: "Escreva seu email" %>
 
-      <%= f.label :password, "Senha"%>
-      <%= f.password_field :password%>
+      <%= f.label :password, "Senha" %>
+      <%= f.password_field :password, placeholder: "Escreva sua senha" %>
 
       <%= f.label :password_confirmation, "Confirme sua senha" %>
-      <%= f.password_field :password_confirmation %>
+      <%= f.password_field :password_confirmation, placeholder: "Confirme sua senha" %>
 
       <%= f.label :group_id, "Grupo" %>
       <% groups = Group.all.map{ |f| [f.name, f.id] } %>
       <%= f.select :group_id, options_for_select(groups) %>
       
+      <div class = "pull-left">
       <%= f.label :teacher, "Professor" %>
-      <%= f.check_box :teacher %>
-
+      <%= f.check_box :teacher%>
       <br><br>
+      </div>
 
       <%= f.submit "Criar Conta", class: "btn btn-lg btn-primary" %>
     </div>

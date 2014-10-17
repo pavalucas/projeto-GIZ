@@ -5,11 +5,11 @@
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(:session, url: sessions_path) do |f| %>
 
-      <%= f.label :email %>
-      <%= f.email_field :email %>
+      <%= f.label :email %> 
+      <%= f.email_field :email, placeholder: "Escreva seu email" %>
 
       <%= f.label :password, "Senha" %>
-      <%= f.password_field :password %>
+      <%= f.password_field :password, placeholder: "Escreva sua senha"%>
       <br><br>
       <%= f.submit "Entrar", class: "btn btn-lg btn-primary btn-block" %>
     <% end %>
