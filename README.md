@@ -1,20 +1,22 @@
-README: Projeto SACI  
+README: Projeto Giz  
 ============
 
-O projeto SACI é um sistema de atualização e comunicação interativo.
+O projeto Giz é uma nova forma de intereção entre o professor e o aluno.
 
 ###Introdução
 
-Atualmente, a maioria das escolas fornece em suas páginas online sistemas de cadastro tanto para o aluno quanto para o professor, onde , normalmente, eles podem verificar ou atualizar notas e boletins. Todavia, nenhum destes sites oferece suporte às turmas nem uma interação professor-aluno, tendo que ser usados outros meios para a turma e os professores se comunicarem (Ex.: Facebook, e-mail e outros).
+Atualmente, a maioria das escolas fornece em seus sites sistemas para o aluno e o professor, onde eles podem verificar ou atualizar notas. 
+Entretanto, estes sistemas não costumam oferecer uma interação entre o professor e os alunos, obrigando-os a recorrer a outros meios de comunicação, como o e-mail ou grupos no Facebook e Whatsapp.
 
 ###Solução
 
-O SACI irá possibilitar a troca de informação e conteúdo entre todos os integrantes das salas de aula (os professores e os alunos). O cadastro como aluno e como professor continuará possível, assim como verificação e atualização de notas, mas a verdadeira integração será o grupo 'Turma', espaços onde os alunos de suas designadas turmas poderão compartilhar novidades, atualizar um calendário virtual com datas de provas, testes, feriados e trabalhos, interagir com os professores que poderão enviar materiais de estudo e avisar quaisquer modificações ou problemas que ocorram durante o ano letivo.
+O projeto Giz possibilita a troca de informação e conteúdo entre todos os que compartilham a sala de aula. Os alunos e os professores criarão contas e poderão verficar e atualizar notas, mas a principal novidade são as Turmas.
+A Turma é um espaço onde os alunos podem compartilhar novidades, atualizar um calendário virtual, dialogar com os professores e avisar quaisquer modificações ou problemas que ocorram durante o ano letivo.
 
 ###Mercado e Público-Alvo
 
-O projeto terá como objetivo atender escolas que procuram estabelecer um melhor relacionamento com os alunos, facilitando a organização de suas vidas escolares. Não são todas as escolas que oferecem algo como uma rede de relacionamento didático dentro de seus domínios.
+O objetivo do projeto é atender escolas que procurem melhorar o relacionamento com o aluno, facilitando a organização de sua vida escolar. O grande diferencial é a preocupação em utilizar as redes sociais, tão presentes na vida dos jovens, para aproximá-los do ambiente escolar e das atividades intra-colegiais. Utilizando uma abordagem atual para lidar com um público que sempre busca ficar conectado, o projeto torna-se prático e funcional.
 
 ###Funcionamento
 
-Seu uso é simples, os alunos poderam criar suas contas através da definição de uma senha, um e-mail e da turma que pertence, nesta conta eles terão acesso a várias informações e estatísticas sobre a sua performance na escola. Este aluno poderá acessar e usar livremente as utilidades do sistema através da sua conta cadastrada. Caso o professor deseje enviar algo para um grupo da turma ele poderá acessar uma lista de grupos e anexar arquivos para a turma desejada ou apenas escrever uma mensagem.
+Seu uso é simples: o aluno cria sua conta e define a que turma pertence; nesta conta, ele tem acesso a todas as utilidades do projeto (Posts, calendário, fotos, etc.). O professor tem em sua conta acesso a uma lista das Turmas e, nestas Turmas, o professor pode criar posts, enviar arquivos, fotos e mensagens.
