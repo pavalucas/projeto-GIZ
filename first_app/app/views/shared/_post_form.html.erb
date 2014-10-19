@@ -9,6 +9,6 @@
 	<% subjects = Subject.all.map{ |f| [f.name] } %>
 	<%= f.select :subject, options_for_select(subjects) %>
 	<br><br>
-	<%= f.submit "Postar", class: "btn btn-lg btn-primary" %>
+	<%= f.submit "Postar", class: "btn btn-lg btn-primary2" %>
 
 <% end %>
