@@ -1,10 +1,25 @@
-<% provide(:title, 'Turmas') %>
-<h1>Turmas</h1>
-<%= link_to "Novo Grupo",  groupnew_path%>
-<%= will_paginate %>
+<h1>Listando turmas</h1>
 
-<ul class="groups">
-  <%= render @groups %>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
 
-<%= will_paginate %>
+  <tbody>
+    <% @groups.each do |group| %>
+      <tr>
+        <td><%= group.name %></td>
+        <td><%= link_to 'Show', group %></td>
+        <td><%= link_to 'Edit', edit_group_path(group) %></td>
+        <td><%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New group', new_group_path %>

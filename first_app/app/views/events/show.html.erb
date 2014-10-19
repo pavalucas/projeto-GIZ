@@ -1,24 +1,24 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>Nome:</strong>
   <%= @event.title %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong>Descrição:</strong>
   <%= @event.description %>
 </p>
 
 <p>
-  <strong>Start time:</strong>
+  <strong>Início:</strong>
   <%= @event.start_time %>
 </p>
 
 <p>
-  <strong>End time:</strong>
+  <strong>Fim:</strong>
   <%= @event.end_time %>
 </p>
 
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+<%= link_to 'Editar', edit_event_path(@event) %> |
+<%= link_to 'Voltar', events_path %>
