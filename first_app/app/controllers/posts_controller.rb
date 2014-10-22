@@ -31,12 +31,14 @@ class PostsController < ApplicationController
   end
 
   def home
+    #debugger
     if signed_in?
       @post = current_user.posts.build
       @group = Group.find(current_user.group_id)
       @posts = @group.posts.paginate(page: params[:page])
       @post_count = @posts.count
       @user = current_user
+      #@user_post = User.find(@posts)
     end
     render 'static_pages/home'
   end
