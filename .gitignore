@@ -18,3 +18,9 @@ doc/
 .DS_Store
 .idea
 .secret
+
+# Ignore uploads
+first_app/uploads
+
+# Ignore assets precompile
+first_app/public/assets
