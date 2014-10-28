@@ -1,3 +1,13 @@
+- Semana 22/10 - 29/10:
+	- O que era para eu ter feito na semana anterior?
+    R: Criar as funcionalidades do professor e colocar os posts da turma inteira na divisão de matéria e não só os do próprio usuário.
+
+	- O que eu fiz?
+	R: Colocamos os post da turma inteira na divisão de matéria e começamos a desenvolver as funcionalidades do professor.
+
+	- O que vou fazer?
+	R: Colocar o nome do usuário que postou no post, continuar implementando funcionalidades do professor e iniciar o relatório e apresentação final.
+
 - Semana 15/10 - 22/10:
 	- O que era para eu ter feito na semana anterior?
     R: Trabalhar mais na ideia do nome e da identidade do site e montar o nicho para feira de ciências.
