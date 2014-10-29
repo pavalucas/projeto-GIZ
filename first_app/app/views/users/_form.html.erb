@@ -19,14 +19,11 @@
       <%= f.label :group_id, "Grupo" %>
       <% groups = Group.all.map{ |f| [f.name, f.id] } %>
       <%= f.select :group_id, options_for_select(groups) %>
-      
-      <div class = "pull-left">
-      <%= f.label :teacher, "Professor" %>
-      <%= f.check_box :teacher%>
-      <br><br>
-      </div>
 
+      <br><br>
+      
       <%= f.submit "Criar Conta", class: "btn btn-lg btn-primary2" %>
+      
     </div>
   </div>
 <% end %>

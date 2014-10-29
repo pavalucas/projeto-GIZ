@@ -16,12 +16,19 @@
 
 <%else%>
   <div class="center hero-unit">
-    <h1>Bem-vindo ao  Projeto-GIZ</h1>
+    <h1>Bem-vindo ao Projeto-GIZ</h1>
+    
+    <div class = "row">
+      <h1> Inscreva-se agora! </h1>
+      <h3> Você é aluno ou professor? </h3>
+    
+      <div class = "col-md-2 col-md-offset-4">
+        <%= link_to "Aluno", signup_path, class: "btn btn-primary2 btn-lg btn-block" %>
+      </div>
 
-    <h2>
-      Essa é a página inicial do nosso projeto.
-    </h2>
-    <br>
-    <%= link_to "Inscreva-se agora", signup_path, class: "btn btn-lg btn-primary2" %>
+      <div class = "col-md-2">
+        <%= link_to "Professor", new_teacher_path, class: "btn btn-primary2 btn-lg btn-block" %>
+      </div>
+    </div>
   </div>
 <%end%>
