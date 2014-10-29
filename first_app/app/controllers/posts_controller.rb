@@ -38,7 +38,7 @@ class PostsController < ApplicationController
       @posts = @group.posts.paginate(page: params[:page])
       @post_count = @posts.count
       @user = current_user
-      #@user_post = User.find(@posts)
+      #@user_post = user_post
     end
     render 'static_pages/home'
   end

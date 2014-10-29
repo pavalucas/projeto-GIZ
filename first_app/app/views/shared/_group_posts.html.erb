@@ -3,7 +3,6 @@
 <% if @group.posts.any? %>
   <h3>Posts (<%= @post_count %>)</h3>
   <ol class="posts">
-  	<%= render @user_post %>
     <%= render @posts %>
   </ol>
   <%= will_paginate @posts %>
