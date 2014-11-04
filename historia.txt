@@ -1,3 +1,13 @@
+- Semana 29/10 - 05/11:
+	- O que era para eu ter feito na semana anterior?
+    R: Colocar o nome do usuário que postou no post, continuar implementando funcionalidades do professor e iniciar o relatório e apresentação final.
+
+	- O que eu fiz?
+	R: Colocamos o nome do usuário nos posts e fizemos uma interface para a criação de professores.
+
+	- O que vou fazer?
+	R: Acabar de desenvolver as funcionalidades do professor e fazer relatório e apresentação do projeto final.
+
 - Semana 22/10 - 29/10:
 	- O que era para eu ter feito na semana anterior?
     R: Criar as funcionalidades do professor e colocar os posts da turma inteira na divisão de matéria e não só os do próprio usuário.
