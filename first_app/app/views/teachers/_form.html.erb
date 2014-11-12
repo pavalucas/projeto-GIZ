@@ -1,0 +1,28 @@
+<%= form_for(@teacher) do |f| %>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <%= render 'shared/error_messages', object: f.object %>
+    </div>
+    <div class="col-md-6 col-md-offset-3">
+      <%= f.label :name, "Nome" %>
+      <%= f.text_field :name, placeholder: "Escreva seu nome"%>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, placeholder: "Escreva seu email" %>
+
+      <%= f.label :password, "Senha" %>
+      <%= f.password_field :password, placeholder: "Escreva sua senha" %>
+
+      <%= f.label :password_confirmation, "Confirme sua senha" %>
+      <%= f.password_field :password_confirmation, placeholder: "Confirme sua senha" %>
+
+      <%= f.label :subject, "Matéria" %>
+      <% subjects = Subject.all.map{ |f| [f.name] } %>
+      <%= f.select :subject, options_for_select(subjects) %>
+
+      <br><br>
+      
+      <%= f.submit "Criar Conta", class: "btn btn-lg btn-primary2" %>
+    </div>
+  </div>
+<% end %>
