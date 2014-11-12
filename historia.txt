@@ -1,3 +1,13 @@
+- Semana 05/11 - 12/11:
+	- O que era para eu ter feito na semana anterior?
+    R: Acabar de desenvolver as funcionalidades do professor e fazer relatório e apresentação do projeto final.
+
+	- O que eu fiz?
+	R: Tivemos ENEM e começamos a fazer o relatório e apresentação do projeto final.
+
+	- O que vou fazer?
+	R: Acabar de desenvolver as funcionalidades do professor e terminar relatório e apresentação do projeto final.
+
 - Semana 29/10 - 05/11:
 	- O que era para eu ter feito na semana anterior?
     R: Colocar o nome do usuário que postou no post, continuar implementando funcionalidades do professor e iniciar o relatório e apresentação final.
