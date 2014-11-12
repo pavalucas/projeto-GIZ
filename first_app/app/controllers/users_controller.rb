@@ -23,6 +23,11 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def new_teacher
+    @user = User.new
+    @user.teacher =  true
+  end
+
   # GET /users/1/edit
   def edit
   end
@@ -64,7 +69,7 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation, :group_id)
+                                   :password_confirmation, :group_id, :teacher, :subject)
     end
 
     def signed_in_user
