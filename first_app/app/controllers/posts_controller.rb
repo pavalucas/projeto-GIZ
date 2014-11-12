@@ -23,20 +23,23 @@ class PostsController < ApplicationController
   end
 
   def showSubject
-    #debugger
-    @posts = current_user.posts.where(subject: params_subject).paginate(page: params[:page])
+    #debugger 
+    @group = Group.find(current_user.group_id)
+    @posts = @group.posts.where(subject: params_subject).paginate(page: params[:page])
     @user = current_user
-    @post_count = @posts.count 
-    render 'shared/_user_posts'
+    @post_count = @posts.count
+    render 'shared/_group_posts_subjects'
   end
 
   def home
+    #debugger
     if signed_in?
       @post = current_user.posts.build
       @group = Group.find(current_user.group_id)
       @posts = @group.posts.paginate(page: params[:page])
       @post_count = @posts.count
       @user = current_user
+      #@user_post = user_post
     end
     render 'static_pages/home'
   end
