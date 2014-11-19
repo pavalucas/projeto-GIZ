@@ -1,3 +1,13 @@
+- Semana 12/11 - 19/11:
+	- O que era para eu ter feito na semana anterior?
+    R: Acabar de desenvolver as funcionalidades do professor e terminar relatório e apresentação do projeto final.
+
+	- O que eu fiz?
+	R: Decidimos mudar a implementação do professor, logo temos que trabalhar nisso para a apresentação final. Continuamos fazendo o relatório e apresentação do projeto final.
+
+	- O que vou fazer?
+	R: Acabar de desenvolver as funcionalidades do professor e terminar relatório e apresentação do projeto final.
+
 - Semana 05/11 - 12/11:
 	- O que era para eu ter feito na semana anterior?
     R: Acabar de desenvolver as funcionalidades do professor e fazer relatório e apresentação do projeto final.
