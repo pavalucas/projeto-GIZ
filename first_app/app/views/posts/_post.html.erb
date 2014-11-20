@@ -1,19 +1,15 @@
 <li>
-  <aside class = "col-md-3">
     <%= gravatar_for User.find(post.user_id)%>
-  </aside>
-  <aside class = "col-md-9">
-    <h4><%= User.find(post.user_id).name %></h4>
-    <span class="content"><%= post.content %></span>
-    <span class="timestamp">
+    <div class="name"><h4><%= User.find(post.user_id).name %></h4></div>
+    <div class="content"><%= post.content %></div>
+    <div class="timestamp">
     	Postado em 
       <% createdTime = post.created_at.in_time_zone('Brasilia') %>
       <%= createdTime.day%>/<%= createdTime.month%>/<%= createdTime.year%>
       <%= createdTime.hour%>:<%= createdTime.min%>:<%= createdTime.sec%>
-    </span><br>
+    </div><br>
     <% if post.photo.present? %>
       <%= post.photo_file_name %>
       <%= link_to "Download", post.photo.url %>
     <% end %>
-  </aside>
 </li>

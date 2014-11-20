@@ -35,10 +35,19 @@ class PostsController < ApplicationController
     #debugger
     if signed_in?
       @post = current_user.posts.build
-      @group = Group.find(current_user.group_id)
-      @posts = @group.posts.paginate(page: params[:page])
-      @post_count = @posts.count
       @user = current_user
+      unless @user.teacher?
+        @group = Group.find(current_user.group_id)
+        @posts = @group.posts.paginate(page: params[:page])
+        @post_count = @posts.count
+      else
+        @group = Group.all
+        @subject = current_user.subject
+        for i in 1 .. @group.count
+          @posts = Group.find(i).posts.where(subject: @subject).paginate(page: params[:page])
+        end
+        @post_count = @posts.count
+      end
       #@user_post = user_post
     end
     render 'static_pages/home'
