@@ -5,7 +5,7 @@
 	</div>      
 	<%= f.file_field :photo %>
 	<br><br>
-	<% unless @user.teacher? %>
+	<% unless current_user.teacher? %>
 		<%= f.label :subject, "Matéria" %>
 		<% subjects = Subject.all.map{ |f| [f.name] } %>
 		<%= f.select :subject, options_for_select(subjects) %>
