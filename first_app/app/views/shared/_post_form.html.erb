@@ -9,8 +9,12 @@
 		<%= f.label :subject, "Matéria" %>
 		<% subjects = Subject.all.map{ |f| [f.name] } %>
 		<%= f.select :subject, options_for_select(subjects) %>
-		<br><br>
+	<% else %>
+		<%= f.label :group_id, "Turma" %>
+        <% groups = Group.all.map{ |f| [f.name, f.id] } %>
+        <%= f.select :group_id, options_for_select(groups) %>
 	<% end %>
+	<br><br>
 	<%= f.submit "Postar", class: "btn btn-lg btn-primary2" %>
 
 <% end %>

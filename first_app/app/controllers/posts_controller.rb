@@ -44,6 +44,7 @@ class PostsController < ApplicationController
         @group = Group.all
         @subject = current_user.subject
         for i in 1 .. @group.count
+          #Aqui está o problema, desse jeito o @posts não fica com os posts de todas as turmas
           @posts = Group.find(i).posts.where(subject: @subject).paginate(page: params[:page])
         end
         @post_count = @posts.count
