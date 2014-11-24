@@ -3,7 +3,13 @@ class PostsController < ApplicationController
 
   def create
     @post = current_user.posts.build(post_params)
-    @post.group_id = current_user.group_id
+    
+    unless current_user.teacher?
+      @post.group_id = current_user.group_id
+    else
+      @post.subject = current_user.subject
+    end
+
     if @post.save
       flash[:success] = "Post criado!"
       redirect_to root_url
