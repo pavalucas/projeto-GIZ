@@ -1,7 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<% if @posts.any? %>
   <h3>Posts (<%= @post_count %>)</h3>
+
+<% if @posts.any? %>
   <ol class="posts">
     <%= render @posts %>
   </ol>

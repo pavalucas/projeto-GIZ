@@ -32,7 +32,6 @@ class PostsController < ApplicationController
   end
 
   def home
-    #debugger
     if signed_in?
       @post = current_user.posts.build
       @user = current_user
@@ -43,9 +42,9 @@ class PostsController < ApplicationController
       else
         @group = Group.all
         @subject = current_user.subject
-        for i in 1 .. @group.count
-          #Aqui está o problema, desse jeito o @posts não fica com os posts de todas as turmas
-          @posts = Group.find(i).posts.where(subject: @subject).paginate(page: params[:page])
+        for i in 1 .. Post.all.count
+          #No lugar de Group.find(i).posts coloquei apenas Post.all
+          @posts = Post.all.where(subject: @subject).paginate(page: params[:page])
         end
         @post_count = @posts.count
       end
@@ -61,12 +60,10 @@ class PostsController < ApplicationController
     end
 
     def params_photo_id
-      #debugger
       params.require(:id)
     end
 
     def params_subject
-      #debugger
       params.require(:subject)
     end
 

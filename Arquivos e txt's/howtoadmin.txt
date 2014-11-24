@@ -1,8 +1,0 @@
-$ rails console --sandbox
->> user = User.first
->> user.admin?
-=> false
->> user.toggle!(:admin)
-=> true
->> user.admin?
-=> true
