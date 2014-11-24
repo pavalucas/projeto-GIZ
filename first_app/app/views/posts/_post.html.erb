@@ -1,6 +1,10 @@
 <li>
-    <%= gravatar_for User.find(post.user_id)%>
-    <div class="name"><h4><%= User.find(post.user_id).name %></h4></div>
+    <% unless current_user.teacher? %>
+      <%= gravatar_for User.find(post.user_id)%>
+      <div class="name"><h4><%= User.find(post.user_id).name %></h4></div>
+    <% else %>
+      <div class="name"><h4><%= Group.find(post.group_id).name %></h4></div>
+    <% end %>
     <div class="content"><%= post.content %></div>
     <div class="timestamp">
     	Postado em 
