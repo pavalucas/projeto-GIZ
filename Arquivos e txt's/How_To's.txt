@@ -1,0 +1,16 @@
+How to Create First User
+{
+	User.create(name: "Miguel Corti", email: "miguel.corti42@gmail.com", password: "123456", password_confirmation: "123456", group_id: 1, teacher: false)
+}
+
+How to Admin User 
+{
+	$ rails console --sandbox
+	>> user = User.first
+	>> user.admin?
+	=> false
+	>> user.toggle!(:admin)
+	=> true
+	>> user.admin?
+	=> true
+}
